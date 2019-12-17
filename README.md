@@ -57,7 +57,7 @@ Be aware that running composer through PHP (setup, marketplace, updates) require
 ## Installation
 
 * Download [Composer](https://getcomposer.org/download/)
-* Install the skeleton: `composer create-project melisplatform/melis-cms-skeleton .`
+* Install the skeleton: `composer create-project melisplatform/melis-platform-skeleton .`
 * Setup your HTTP server (as described in [HTTP server config](#http-server-config) section
 * Add this entry to your hosts file if you're working locally: `127.0.0.1       www.mysite.local`
 * Create a database, using utf8_general_ci encoding
@@ -77,7 +77,7 @@ Feel free to fork the project, create a feature branch, and send us a pull reque
 
 * **Melis Technology** - [www.melistechnology.com](https://www.melistechnology.com/)
 
-See also the list of [contributors](https://github.com/melisplatform/melis-cms-skeleton/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/melisplatform/melis-platform-skeleton/contributors) who participated in this project.
 
 
 ## License
