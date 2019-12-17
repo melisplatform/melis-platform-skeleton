@@ -1,6 +1,6 @@
 {
-  "name": "melisplatform/melis-cms-skeleton",
-  "description": "Melis Platform CMS Skeleton",
+  "name": "melisplatform/melis-platform-skeleton",
+  "description": "Melis Platform Skeleton",
   "type": "project",
   "license": "OSL-3.0",
   "require": {
