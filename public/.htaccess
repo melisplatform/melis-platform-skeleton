@@ -1,0 +1,52 @@
+RewriteEngine On
+
+<IfModule mod_headers.c>
+    SetEnv mod_headers On
+    Header set Connection keep-alive
+
+    FileETag None
+	Header unset ETag
+	Header unset Pragma
+	Header unset Cache-Control
+	Header unset Last-Modified
+
+	# default cache 1 year = 31556926 s
+
+	<IfModule mod_alias.c>
+	    SetEnv mod_alias On
+		<FilesMatch "\.(gif|jpe?g?|png|ico|js|css)$">
+			# cache image files for 1 month = 2629744 seconds
+			Header set Cache-Control "max-age=2629744, public, no-transform, must-revalidate"
+		</FilesMatch>
+
+		<FilesMatch "\.(doc|eot|flv|mp4|ogg|pdf|svg|swf|ttf|otf|woff)$">
+			# cache fonts and media files for 1 month = 2629744 seconds
+			Header set Cache-Control "max-age=2629744, public, no-transform, must-revalidate"
+		</FilesMatch>
+	</IfModule>
+
+</IfModule>
+
+<IfModule mod_deflate.c>
+    SetEnv mod_deflate On
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/shtml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::\2$
+RewriteRule ^(.*) - [E=BASE:%1]
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [NC,L]
+

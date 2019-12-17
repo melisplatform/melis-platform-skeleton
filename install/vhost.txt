@@ -1,0 +1,48 @@
+# PATH_DOCROOT = /path/to/docroot
+
+# MELIS_PLATFORM will define your environment. It's used in configuration
+# when the code is identifying what's your platform in different actions.
+# MELIS_MODULE is used to know what modules list to load.
+# Putting the site's module name will load /module/MelisSites/[MELIS_MODULE]/config/module.load.php
+# allowing you to select what modules to load in your front site.
+
+# VHOST: www.mysite.local
+# WebSite test URL: www.mysite.local
+# BO URL: www.mysite.local/melis
+
+# FOR ZEND SERVER VERSION 9 or any apache dependent server (XAMPP, WAMP, LAMP) with Apache version: 2.4.18
+<VirtualHost *:80>
+    DocumentRoot "PATH_DOCROOT/public"
+    <Directory "PATH_DOCROOT/public">
+        Options -Indexes +FollowSymLinks +ExecCGI
+        DirectoryIndex index.php
+        Order allow,deny
+        Allow from all
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ServerName www.mysite.local:80
+    SetEnv MELIS_PLATFORM "development"
+    SetEnv MELIS_MODULE "MySiteTest"
+
+</VirtualHost>
+
+
+# --------------------------------------------------------------------------------------------------------
+# FOR ZEND SERVER VERSION 8 or any apache dependent server (XAMPP, WAMP, LAMP) with Apache version: 2.2.31
+<VirtualHost *:80>
+    DocumentRoot "PATH_DOCROOT/public"
+    <Directory "PATH_DOCROOT/public">
+        Options -Indexes +FollowSymLinks +ExecCGI
+        DirectoryIndex index.php
+        Order allow,deny
+        Allow from all
+        AllowOverride All
+    </Directory>
+
+    ServerName www.mysite.local:80
+    SetEnv MELIS_PLATFORM "development"
+    SetEnv MELIS_MODULE "MySiteTest"
+
+</VirtualHost>

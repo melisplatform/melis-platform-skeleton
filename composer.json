@@ -1,0 +1,31 @@
+{
+  "name": "melisplatform/melis-cms-skeleton",
+  "description": "Melis Platform CMS Skeleton",
+  "type": "project",
+  "license": "OSL-3.0",
+  "require": {
+    "php": "^7.0",
+    "hirak/prestissimo": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-pdo_mysql": "*",
+    "ext-intl": "*",
+    "myclabs/deep-copy": "1.7.0",
+    "ocramius/package-versions": "1.2.0",
+    "zendframework/zendframework": "2.5.3",
+    "justinrainbow/json-schema": "5.2.1",
+    "ezyang/htmlpurifier": "4.10.0",
+    "melisplatform/melis-asset-manager": "^3.1.0",
+    "melisplatform/melis-installer": "^3.1.0",
+    "melisplatform/melis-dbdeploy": "^3.1.0",
+    "melisplatform/melis-composerdeploy": "^3.1.0",
+    "melisplatform/melis-marketplace": "^3.1.0",
+    "melisplatform/melis-core": "^3.1.0"
+  },
+  "scripts": {
+    "post-update-cmd": [
+      "MelisCore\\ModuleComposerScript::executeScripts",
+      "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
+    ]
+  }
+}

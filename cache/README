@@ -1,0 +1,4 @@
+This folder holds the filesystem cache of Melis Platform.
+Melis Platform uses different types of cache:
+- memory cache when datas are not that big and queried a lot (ex: links generation)
+- filesystem cache when objects are bigger 
