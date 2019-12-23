@@ -5,10 +5,11 @@ This is the package you need to use to start a setup of Melis Platform.
 
 ## Requirements
 
-* PHP 5.5+
+* PHP 7.0+
 * PHP openssl extension
 * PHP json extension
 * PHP pdo_mysql extension
+* PHP zip extension
 
 ## HTTP server & vhost configuration
 
@@ -20,7 +21,7 @@ Vhost should look like this:
 <VirtualHost *:80>
     DocumentRoot "PATH_DOCROOT/public"
     <Directory "PATH_DOCROOT/public">
-        Options +Indexes +FollowSymLinks +ExecCGI
+        Options -Indexes +FollowSymLinks +ExecCGI
         DirectoryIndex index.php
         Order allow,deny
         Allow from all
