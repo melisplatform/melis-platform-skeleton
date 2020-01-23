@@ -21,7 +21,7 @@ return array(
                         'active' => 0,
                     ),
                     'errors' => array(
-                        'error_reporting' => E_ALL & ~E_USER_DEPRECATED,
+                        'error_reporting' => E_ALL & ~E_USER_DEPRECATED & ~E_WARNING,
                         'display_errors' => 1,
                     ),
                 ),
@@ -31,7 +31,7 @@ return array(
                         'active' => 1,
                     ),
                     'errors' => array(
-                        'error_reporting' => E_ALL & ~E_USER_DEPRECATED,
+                        'error_reporting' => E_ALL & ~E_USER_DEPRECATED & ~E_WARNING,
                         'display_errors' => 1,
                     ),
                 ),
