@@ -16,5 +16,4 @@ bin/*
 /deployment.properties
 /deployment.xml
 public/cache/
-config/melis.module.load.php
 module/MelisModuleConfig/config/translation.list.php
