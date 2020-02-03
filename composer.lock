@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba2d5274e0fc5cdaa6b68dc4aac5f69d",
+    "content-hash": "e3ce7026efe66eb44b48480a5e6464e1",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -562,16 +562,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v3.1.2",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "477c713b3903e2c6546d302ba86ed6a6e0ab0c4a"
+                "url": "git@github.com:melisplatform/melis-asset-manager.git",
+                "reference": "c9550102f473f1526666986dfc1903fd81510685"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/477c713b3903e2c6546d302ba86ed6a6e0ab0c4a",
-                "reference": "477c713b3903e2c6546d302ba86ed6a6e0ab0c4a",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/c9550102f473f1526666986dfc1903fd81510685",
+                "reference": "c9550102f473f1526666986dfc1903fd81510685",
                 "shasum": ""
             },
             "require": {
@@ -611,14 +611,14 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-07-08T04:22:35+00:00"
+            "time": "2020-02-03T04:16:43+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v3.1.1",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/melisplatform/melis-composerdeploy.git",
+                "url": "git@github.com:melisplatform/melis-composerdeploy.git",
                 "reference": "80ce7365af3296750467898a5ef9d33757114f9c"
             },
             "dist": {
@@ -664,16 +664,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.1.15",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "e199b8ec6968f75127ff1a4641174f181d1c9242"
+                "reference": "1ca2461542dd1d3d83d90f0f6c073faecaa0cdfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/e199b8ec6968f75127ff1a4641174f181d1c9242",
-                "reference": "e199b8ec6968f75127ff1a4641174f181d1c9242",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/1ca2461542dd1d3d83d90f0f6c073faecaa0cdfe",
+                "reference": "1ca2461542dd1d3d83d90f0f6c073faecaa0cdfe",
                 "shasum": ""
             },
             "require": {
@@ -682,7 +682,7 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
-                "melisplatform/melis-asset-manager": "^3.1.0",
+                "melisplatform/melis-asset-manager": "^3.2",
                 "php": "^7.0"
             },
             "require-dev": {
@@ -720,14 +720,14 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-01-28T05:20:33+00:00"
+            "time": "2020-02-03T05:24:01+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v3.1.0",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/melisplatform/melis-dbdeploy.git",
+                "url": "git@github.com:melisplatform/melis-dbdeploy.git",
                 "reference": "839dfd12a59f4ee3339b3b05ea3b6cc3c601e2f7"
             },
             "dist": {
@@ -772,16 +772,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.1.10",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "2cc49390953be27d6a5168166a393f6bf185c40e"
+                "url": "git@github.com:melisplatform/melis-installer.git",
+                "reference": "b38bd20ea5a1f236be90e38a3aac160620109f13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/2cc49390953be27d6a5168166a393f6bf185c40e",
-                "reference": "2cc49390953be27d6a5168166a393f6bf185c40e",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/b38bd20ea5a1f236be90e38a3aac160620109f13",
+                "reference": "b38bd20ea5a1f236be90e38a3aac160620109f13",
                 "shasum": ""
             },
             "require": {
@@ -825,20 +825,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-12-17T03:43:51+00:00"
+            "time": "2020-02-03T04:18:33+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.1.11",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "8001d1a0cc61a5205d4cab2ddfd06e05ea649fe9"
+                "reference": "1968da5a35bd43384608de4576f023bf7228a80f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/8001d1a0cc61a5205d4cab2ddfd06e05ea649fe9",
-                "reference": "8001d1a0cc61a5205d4cab2ddfd06e05ea649fe9",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/1968da5a35bd43384608de4576f023bf7228a80f",
+                "reference": "1968da5a35bd43384608de4576f023bf7228a80f",
                 "shasum": ""
             },
             "require": {
@@ -846,9 +846,9 @@
                 "ext-openssl": "*",
                 "ext-pdo_mysql": "*",
                 "justinrainbow/json-schema": "5.2.1",
-                "melisplatform/melis-composerdeploy": "^3.1.0",
-                "melisplatform/melis-core": "^3.1.0",
-                "melisplatform/melis-dbdeploy": "^3.1.0",
+                "melisplatform/melis-composerdeploy": "^3.2",
+                "melisplatform/melis-core": "^3.2",
+                "melisplatform/melis-dbdeploy": "^3.2",
                 "php": "^7.0"
             },
             "require-dev": {
@@ -886,7 +886,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-12-10T04:45:02+00:00"
+            "time": "2020-02-03T05:21:38+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2520,16 +2520,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f"
+                "reference": "f512001679f37e6a042b51897ed24a2f05eba656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f",
-                "reference": "e9ee09d087e2c88eaf6e5fc0f5c574f64d100e4f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f512001679f37e6a042b51897ed24a2f05eba656",
+                "reference": "f512001679f37e6a042b51897ed24a2f05eba656",
                 "shasum": ""
             },
             "require": {
@@ -2592,11 +2592,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2020-01-10T21:54:01+00:00"
+            "time": "2020-01-25T12:44:29+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -2646,7 +2646,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -2870,7 +2870,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -2977,7 +2977,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.3",
+            "version": "v4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
