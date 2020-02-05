@@ -64,16 +64,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "1.9.2",
+            "version": "1.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "7a04aa0201ddaa0b3cf64d41022bd8cdcd7fafeb"
+                "reference": "1291a16ce3f48bfdeca39d64fca4875098af4d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/7a04aa0201ddaa0b3cf64d41022bd8cdcd7fafeb",
-                "reference": "7a04aa0201ddaa0b3cf64d41022bd8cdcd7fafeb",
+                "url": "https://api.github.com/repos/composer/composer/zipball/1291a16ce3f48bfdeca39d64fca4875098af4d7b",
+                "reference": "1291a16ce3f48bfdeca39d64fca4875098af4d7b",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-01-14T15:30:32+00:00"
+            "time": "2020-02-04T11:58:49+00:00"
         },
         {
             "name": "composer/semver",
@@ -664,16 +664,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "1ca2461542dd1d3d83d90f0f6c073faecaa0cdfe"
+                "reference": "a798a0b9422f06402364f0db7753ddd59807380c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/1ca2461542dd1d3d83d90f0f6c073faecaa0cdfe",
-                "reference": "1ca2461542dd1d3d83d90f0f6c073faecaa0cdfe",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/a798a0b9422f06402364f0db7753ddd59807380c",
+                "reference": "a798a0b9422f06402364f0db7753ddd59807380c",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-02-03T05:24:01+00:00"
+            "time": "2020-02-05T05:51:45+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -772,16 +772,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:melisplatform/melis-installer.git",
-                "reference": "b38bd20ea5a1f236be90e38a3aac160620109f13"
+                "url": "https://github.com/melisplatform/melis-installer.git",
+                "reference": "d2377f31701a158f87dc8dba40fddbd409c2a093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/b38bd20ea5a1f236be90e38a3aac160620109f13",
-                "reference": "b38bd20ea5a1f236be90e38a3aac160620109f13",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/d2377f31701a158f87dc8dba40fddbd409c2a093",
+                "reference": "d2377f31701a158f87dc8dba40fddbd409c2a093",
                 "shasum": ""
             },
             "require": {
@@ -825,7 +825,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-02-03T04:18:33+00:00"
+            "time": "2020-02-03T07:49:28+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -984,16 +984,16 @@
         },
         {
             "name": "phing/phing",
-            "version": "2.16.2",
+            "version": "2.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "d11c6328c450cb3cda4ffa6548aa9cd60f30dd17"
+                "reference": "b34c2bf9cd6abd39b4287dee31e68673784c8567"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/d11c6328c450cb3cda4ffa6548aa9cd60f30dd17",
-                "reference": "d11c6328c450cb3cda4ffa6548aa9cd60f30dd17",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/b34c2bf9cd6abd39b4287dee31e68673784c8567",
+                "reference": "b34c2bf9cd6abd39b4287dee31e68673784c8567",
                 "shasum": ""
             },
             "require": {
@@ -1073,7 +1073,7 @@
                 "task",
                 "tool"
             ],
-            "time": "2020-01-03T10:18:48+00:00"
+            "time": "2020-02-03T18:50:54+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
