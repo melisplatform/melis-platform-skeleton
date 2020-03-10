@@ -772,16 +772,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "8834ea4e824e7679dbc309d909e8209d0a9724d6"
+                "reference": "134c05a082567b5ce608b946037d71924bb1061f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/8834ea4e824e7679dbc309d909e8209d0a9724d6",
-                "reference": "8834ea4e824e7679dbc309d909e8209d0a9724d6",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/134c05a082567b5ce608b946037d71924bb1061f",
+                "reference": "134c05a082567b5ce608b946037d71924bb1061f",
                 "shasum": ""
             },
             "require": {
@@ -825,20 +825,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-03T11:07:13+00:00"
+            "time": "2020-03-10T10:05:14+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "1968da5a35bd43384608de4576f023bf7228a80f"
+                "reference": "a2155c59bb8befe97a0bdc59b69c10f818fb9c1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/1968da5a35bd43384608de4576f023bf7228a80f",
-                "reference": "1968da5a35bd43384608de4576f023bf7228a80f",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/a2155c59bb8befe97a0bdc59b69c10f818fb9c1b",
+                "reference": "a2155c59bb8befe97a0bdc59b69c10f818fb9c1b",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +886,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-02-03T05:21:38+00:00"
+            "time": "2020-03-10T07:43:08+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1228,16 +1228,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9"
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
                 "shasum": ""
             },
             "require": {
@@ -1287,7 +1287,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2020-01-20T15:57:02+00:00"
+            "time": "2020-03-05T15:02:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
