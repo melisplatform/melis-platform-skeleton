@@ -10,6 +10,7 @@
     "ext-json": "*",
     "ext-pdo_mysql": "*",
     "ext-intl": "*",
+    "composer/composer": "1.9.3",
     "myclabs/deep-copy": "1.7.0",
     "ocramius/package-versions": "1.2.0",
     "zendframework/zendframework": "2.5.3",
