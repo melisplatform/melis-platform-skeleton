@@ -16,8 +16,7 @@ return [
             'Laminas\Form',
             'Laminas\Validator',
             'Laminas\Db',
-            'Laminas\InputFilter',
-            'Application',
+            'Laminas\InputFilter'
         ],
         MelisInstaller\MelisModuleManager::getModules()
     ),
