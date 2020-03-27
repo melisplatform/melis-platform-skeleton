@@ -2074,12 +2074,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "061e36112fa009ade177d01b972e455541dd4eac"
+                "reference": "08585300343706aa2a4d135b992de798d3dbe1af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/061e36112fa009ade177d01b972e455541dd4eac",
-                "reference": "061e36112fa009ade177d01b972e455541dd4eac",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/08585300343706aa2a4d135b992de798d3dbe1af",
+                "reference": "08585300343706aa2a4d135b992de798d3dbe1af",
                 "shasum": ""
             },
             "require": {
@@ -2114,7 +2114,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T07:07:37+00:00"
+            "time": "2020-03-27T10:20:14+00:00"
         },
         {
             "name": "melisplatform/melis-core",
