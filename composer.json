@@ -1,32 +1,53 @@
 {
-  "name": "melisplatform/melis-platform-skeleton",
-  "description": "Melis Platform Skeleton",
-  "type": "project",
-  "license": "OSL-3.0",
-  "require": {
-    "php": "^7.0",
-    "hirak/prestissimo": "*",
-    "ext-openssl": "*",
-    "ext-json": "*",
-    "ext-pdo_mysql": "*",
-    "ext-intl": "*",
-    "composer/composer": "1.9.3",
-    "myclabs/deep-copy": "1.7.0",
-    "ocramius/package-versions": "1.2.0",
-    "zendframework/zendframework": "2.5.3",
-    "justinrainbow/json-schema": "5.2.1",
-    "ezyang/htmlpurifier": "4.10.0",
-    "melisplatform/melis-asset-manager": "^3.2",
-    "melisplatform/melis-installer": "^3.2",
-    "melisplatform/melis-dbdeploy": "^3.2",
-    "melisplatform/melis-composerdeploy": "^3.2",
-    "melisplatform/melis-marketplace": "^3.2",
-    "melisplatform/melis-core": "^3.2"
-  },
-  "scripts": {
-    "post-update-cmd": [
-      "MelisCore\\ModuleComposerScript::executeScripts",
-      "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
-    ]
-  }
+    "name": "melisplatform/melis-platform-skeleton",
+    "description": "Melis Platform Skeleton",
+    "type": "project",
+    "license": "OSL-3.0",
+    "keywords": [
+        "melis",
+        "melisplatform",
+        "platform",
+        "laminas",
+        "mvc",
+        "framework"
+    ],
+    "require": {
+        "php": "^7.1",
+        "composer/composer": "1.9.3",
+        "laminas/laminas-mvc": "^3.1.1",
+        "laminas/laminas-i18n": "^2.10",
+        "laminas/laminas-session": "^2.9",
+        "laminas/laminas-form": "^2.14",
+        "laminas/laminas-hydrator": "^2.4",
+        "laminas/laminas-mvc-i18n": "^1.1",
+        "laminas/laminas-db": "^2.11",
+        "laminas/laminas-authentication": "^2.7",
+        "laminas/laminas-mime": "^2.7",
+        "laminas/laminas-inputfilter": "^2.10",
+        "melisplatform/melis-asset-manager": "dev-migrate/laminas as 3.2",
+        "melisplatform/melis-composerdeploy": "dev-migrate/laminas as 3.2",
+        "melisplatform/melis-core": "dev-migrate/laminas as 3.2",
+        "melisplatform/melis-dbdeploy": "dev-migrate/laminas as 3.2",
+        "melisplatform/melis-installer": "dev-migrate/laminas as 3.2",
+        "melisplatform/melis-marketplace": "dev-migrate/laminas as 3.2"
+    },
+    "scripts": {
+        "development-disable": "laminas-development-mode disable",
+        "development-enable": "laminas-development-mode enable",
+        "development-status": "laminas-development-mode status",
+        "post-create-project-cmd": [
+            "@development-enable",
+            "php bin/update-gitignore.php"
+        ],
+        "post-update-cmd": [
+          "MelisCore\\ModuleComposerScript::executeScripts",
+          "MelisDbDeploy\\DbDeployOnComposerUpdate::postUpdate"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "laminas/laminas-code": "^3.4",
+        "laminas/laminas-developer-tools": "^2.0",
+        "laminas/laminas-development-mode": "^3.2"
+    }
 }

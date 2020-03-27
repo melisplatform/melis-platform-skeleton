@@ -9,10 +9,9 @@
  
 namespace MelisModuleConfig;
 
-use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
-use Zend\ModuleManager\ModuleManager;
-use Zend\Stdlib\ArrayUtils;
+use Laminas\Mvc\ModuleRouteListener;
+use Laminas\Mvc\MvcEvent;
+use Laminas\Stdlib\ArrayUtils;
  
 class Module
 {
@@ -22,19 +21,15 @@ class Module
         $moduleRouteListener = new ModuleRouteListener();
         $moduleRouteListener->attach($eventManager);
     }
-    
-    public function init(ModuleManager $manager)
-    {
-    }
 
     public function getConfig()
     {
-    	$config = array();
-    	$configFiles = array(
-    			include __DIR__ . '/config/module.config.php',
-    			include __DIR__ . '/config/app.interface.php',
-    			include __DIR__ . '/config/app.forms.php',
-    	);
+    	$config = [];
+    	$configFiles = [
+            include __DIR__ . './config/module.config.php',
+            include __DIR__ . './config/app.interface.php',
+            include __DIR__ . './config/app.forms.php',
+    	];
     	
     	foreach ($configFiles as $file) {
     		$config = ArrayUtils::merge($config, $file);
@@ -45,13 +40,12 @@ class Module
 
     public function getAutoloaderConfig()
     {
-        return array(
-            'Zend\Loader\StandardAutoloader' => array(
-                'namespaces' => array(
+        return [
+            'Zend\Loader\StandardAutoloader' => [
+                'namespaces' => [
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
-                ),
-            ),
-        );
+                ],
+            ],
+        ];
     }
- 
 }
