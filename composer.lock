@@ -544,16 +544,16 @@
         },
         {
             "name": "laminas/laminas-db",
-            "version": "2.11.2",
+            "version": "2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-db.git",
-                "reference": "76f9527da996c2fef32ef1f3a939e18ca5e9d962"
+                "reference": "6c4238918b9204db1eb8cafae2c1940d40f4c007"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-db/zipball/76f9527da996c2fef32ef1f3a939e18ca5e9d962",
-                "reference": "76f9527da996c2fef32ef1f3a939e18ca5e9d962",
+                "url": "https://api.github.com/repos/laminas/laminas-db/zipball/6c4238918b9204db1eb8cafae2c1940d40f4c007",
+                "reference": "6c4238918b9204db1eb8cafae2c1940d40f4c007",
                 "shasum": ""
             },
             "require": {
@@ -562,7 +562,7 @@
                 "php": "^5.6 || ^7.0"
             },
             "replace": {
-                "zendframework/zend-db": "self.version"
+                "zendframework/zend-db": "^2.11.0"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -602,7 +602,7 @@
                 "db",
                 "laminas"
             ],
-            "time": "2020-01-14T13:07:26+00:00"
+            "time": "2020-03-29T12:08:51+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -713,16 +713,16 @@
         },
         {
             "name": "laminas/laminas-filter",
-            "version": "2.9.3",
+            "version": "2.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-filter.git",
-                "reference": "52b5cdbef8902280996e687e7352a648a8e22f31"
+                "reference": "3c4476e772a062cef7531c6793377ae585d89c82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/52b5cdbef8902280996e687e7352a648a8e22f31",
-                "reference": "52b5cdbef8902280996e687e7352a648a8e22f31",
+                "url": "https://api.github.com/repos/laminas/laminas-filter/zipball/3c4476e772a062cef7531c6793377ae585d89c82",
+                "reference": "3c4476e772a062cef7531c6793377ae585d89c82",
                 "shasum": ""
             },
             "require": {
@@ -734,7 +734,7 @@
                 "laminas/laminas-validator": "<2.10.1"
             },
             "replace": {
-                "zendframework/zend-filter": "self.version"
+                "zendframework/zend-filter": "^2.9.2"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -778,20 +778,20 @@
                 "filter",
                 "laminas"
             ],
-            "time": "2020-01-07T20:43:53+00:00"
+            "time": "2020-03-29T12:41:29+00:00"
         },
         {
             "name": "laminas/laminas-form",
-            "version": "2.14.4",
+            "version": "2.14.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-form.git",
-                "reference": "8b985f74bfe32910edb4ba9503877c4310228cd2"
+                "reference": "3e22e09751cf6ae031be87a44e092e7925ce5b7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-form/zipball/8b985f74bfe32910edb4ba9503877c4310228cd2",
-                "reference": "8b985f74bfe32910edb4ba9503877c4310228cd2",
+                "url": "https://api.github.com/repos/laminas/laminas-form/zipball/3e22e09751cf6ae031be87a44e092e7925ce5b7b",
+                "reference": "3e22e09751cf6ae031be87a44e092e7925ce5b7b",
                 "shasum": ""
             },
             "require": {
@@ -802,7 +802,7 @@
                 "php": "^5.6 || ^7.0"
             },
             "replace": {
-                "zendframework/zend-form": "self.version"
+                "zendframework/zend-form": "^2.14.3"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
@@ -860,7 +860,7 @@
                 "form",
                 "laminas"
             ],
-            "time": "2020-03-18T22:38:54+00:00"
+            "time": "2020-03-29T12:46:16+00:00"
         },
         {
             "name": "laminas/laminas-http",
@@ -986,16 +986,16 @@
         },
         {
             "name": "laminas/laminas-i18n",
-            "version": "2.10.2",
+            "version": "2.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-i18n.git",
-                "reference": "9699c98d97d2f519def3da8d4128dfe6e6ad11bf"
+                "reference": "94ff957a1366f5be94f3d3a9b89b50386649e3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/9699c98d97d2f519def3da8d4128dfe6e6ad11bf",
-                "reference": "9699c98d97d2f519def3da8d4128dfe6e6ad11bf",
+                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/94ff957a1366f5be94f3d3a9b89b50386649e3ae",
+                "reference": "94ff957a1366f5be94f3d3a9b89b50386649e3ae",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1008,7 @@
                 "phpspec/prophecy": "<1.9.0"
             },
             "replace": {
-                "zendframework/zend-i18n": "self.version"
+                "zendframework/zend-i18n": "^2.10.1"
             },
             "require-dev": {
                 "laminas/laminas-cache": "^2.6.1",
@@ -1057,7 +1057,7 @@
                 "i18n",
                 "laminas"
             ],
-            "time": "2020-03-20T11:57:14+00:00"
+            "time": "2020-03-29T12:51:08+00:00"
         },
         {
             "name": "laminas/laminas-inputfilter",
@@ -1225,16 +1225,16 @@
         },
         {
             "name": "laminas/laminas-mime",
-            "version": "2.7.3",
+            "version": "2.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mime.git",
-                "reference": "e844abb02e868fae154207929190292ad25057cc"
+                "reference": "e45a7d856bf7b4a7b5bd00d6371f9961dc233add"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mime/zipball/e844abb02e868fae154207929190292ad25057cc",
-                "reference": "e844abb02e868fae154207929190292ad25057cc",
+                "url": "https://api.github.com/repos/laminas/laminas-mime/zipball/e45a7d856bf7b4a7b5bd00d6371f9961dc233add",
+                "reference": "e45a7d856bf7b4a7b5bd00d6371f9961dc233add",
                 "shasum": ""
             },
             "require": {
@@ -1243,7 +1243,7 @@
                 "php": "^5.6 || ^7.0"
             },
             "replace": {
-                "zendframework/zend-mime": "self.version"
+                "zendframework/zend-mime": "^2.7.2"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -1275,7 +1275,7 @@
                 "laminas",
                 "mime"
             ],
-            "time": "2020-03-06T08:38:03+00:00"
+            "time": "2020-03-29T13:12:07+00:00"
         },
         {
             "name": "laminas/laminas-modulemanager",
@@ -1486,16 +1486,16 @@
         },
         {
             "name": "laminas/laminas-router",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-router.git",
-                "reference": "c94f13f39dfbc4313efdbfcd9772487b4b009026"
+                "reference": "01a6905202ad41a42ba63d60260eba32b89e18c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/c94f13f39dfbc4313efdbfcd9772487b4b009026",
-                "reference": "c94f13f39dfbc4313efdbfcd9772487b4b009026",
+                "url": "https://api.github.com/repos/laminas/laminas-router/zipball/01a6905202ad41a42ba63d60260eba32b89e18c7",
+                "reference": "01a6905202ad41a42ba63d60260eba32b89e18c7",
                 "shasum": ""
             },
             "require": {
@@ -1510,7 +1510,7 @@
                 "laminas/laminas-mvc": "<3.0.0"
             },
             "replace": {
-                "zendframework/zend-router": "self.version"
+                "zendframework/zend-router": "^3.3.0"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -1547,7 +1547,7 @@
                 "mvc",
                 "routing"
             ],
-            "time": "2020-01-03T17:19:34+00:00"
+            "time": "2020-03-29T13:21:03+00:00"
         },
         {
             "name": "laminas/laminas-servicemanager",
@@ -1623,16 +1623,16 @@
         },
         {
             "name": "laminas/laminas-session",
-            "version": "2.9.2",
+            "version": "2.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-session.git",
-                "reference": "fdba34c1b257235dba2fff6ed4df1844390f85f6"
+                "reference": "519e8966146536cd97c1cc3d59a21b095fb814d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-session/zipball/fdba34c1b257235dba2fff6ed4df1844390f85f6",
-                "reference": "fdba34c1b257235dba2fff6ed4df1844390f85f6",
+                "url": "https://api.github.com/repos/laminas/laminas-session/zipball/519e8966146536cd97c1cc3d59a21b095fb814d7",
+                "reference": "519e8966146536cd97c1cc3d59a21b095fb814d7",
                 "shasum": ""
             },
             "require": {
@@ -1642,7 +1642,7 @@
                 "php": "^5.6 || ^7.0"
             },
             "replace": {
-                "zendframework/zend-session": "self.version"
+                "zendframework/zend-session": "^2.9.1"
             },
             "require-dev": {
                 "container-interop/container-interop": "^1.1",
@@ -1690,7 +1690,7 @@
                 "laminas",
                 "session"
             ],
-            "time": "2020-03-06T09:44:45+00:00"
+            "time": "2020-03-29T13:26:04+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
@@ -1795,16 +1795,16 @@
         },
         {
             "name": "laminas/laminas-validator",
-            "version": "2.13.2",
+            "version": "2.13.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-validator.git",
-                "reference": "e7bf6a2eedc0508ebde0ebc66662efeb0abbcb2c"
+                "reference": "a4e57af743eb751a8e6fa75460e439841c97833e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/e7bf6a2eedc0508ebde0ebc66662efeb0abbcb2c",
-                "reference": "e7bf6a2eedc0508ebde0ebc66662efeb0abbcb2c",
+                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/a4e57af743eb751a8e6fa75460e439841c97833e",
+                "reference": "a4e57af743eb751a8e6fa75460e439841c97833e",
                 "shasum": ""
             },
             "require": {
@@ -1814,7 +1814,7 @@
                 "php": "^7.1"
             },
             "replace": {
-                "zendframework/zend-validator": "self.version"
+                "zendframework/zend-validator": "^2.13.0"
             },
             "require-dev": {
                 "laminas/laminas-cache": "^2.6.1",
@@ -1870,7 +1870,7 @@
                 "laminas",
                 "validator"
             ],
-            "time": "2020-03-16T11:38:27+00:00"
+            "time": "2020-03-29T13:43:20+00:00"
         },
         {
             "name": "laminas/laminas-view",
@@ -2122,12 +2122,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "04302b7dc1569dd44243435d4a3010af676420c5"
+                "reference": "c8d3548821d8c392765f58361e8ed578860950e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/04302b7dc1569dd44243435d4a3010af676420c5",
-                "reference": "04302b7dc1569dd44243435d4a3010af676420c5",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/c8d3548821d8c392765f58361e8ed578860950e7",
+                "reference": "c8d3548821d8c392765f58361e8ed578860950e7",
                 "shasum": ""
             },
             "require": {
@@ -2171,7 +2171,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T07:40:12+00:00"
+            "time": "2020-03-30T04:10:55+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -2226,12 +2226,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "db6423027b7a65ebb9e6a2c39a699640b5f6edb3"
+                "reference": "5bf336fda835c49a76bf11dadf2823a9e33ecc3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/db6423027b7a65ebb9e6a2c39a699640b5f6edb3",
-                "reference": "db6423027b7a65ebb9e6a2c39a699640b5f6edb3",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/5bf336fda835c49a76bf11dadf2823a9e33ecc3e",
+                "reference": "5bf336fda835c49a76bf11dadf2823a9e33ecc3e",
                 "shasum": ""
             },
             "require": {
@@ -2272,7 +2272,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T08:50:20+00:00"
+            "time": "2020-03-30T04:04:48+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -2280,12 +2280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "d62764fb998a7ece66131b14a09882d23ecb88b9"
+                "reference": "6c7269a2ab7fdfa24ae8c4c056b36934908acaa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/d62764fb998a7ece66131b14a09882d23ecb88b9",
-                "reference": "d62764fb998a7ece66131b14a09882d23ecb88b9",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/6c7269a2ab7fdfa24ae8c4c056b36934908acaa7",
+                "reference": "6c7269a2ab7fdfa24ae8c4c056b36934908acaa7",
                 "shasum": ""
             },
             "require": {
@@ -2330,7 +2330,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T07:11:48+00:00"
+            "time": "2020-03-30T03:53:35+00:00"
         },
         {
             "name": "phing/phing",
@@ -3290,16 +3290,16 @@
         },
         {
             "name": "laminas/laminas-developer-tools",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-developer-tools.git",
-                "reference": "01d626dc1c14541f6062bbb05fd14d7735fdc057"
+                "reference": "7c74cb0d71a8362e7491972a3e065402a216163f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-developer-tools/zipball/01d626dc1c14541f6062bbb05fd14d7735fdc057",
-                "reference": "01d626dc1c14541f6062bbb05fd14d7735fdc057",
+                "url": "https://api.github.com/repos/laminas/laminas-developer-tools/zipball/7c74cb0d71a8362e7491972a3e065402a216163f",
+                "reference": "7c74cb0d71a8362e7491972a3e065402a216163f",
                 "shasum": ""
             },
             "require": {
@@ -3314,7 +3314,7 @@
                 "symfony/var-dumper": "^3.4.36 || ^4.4.1 || ^5.0.1"
             },
             "replace": {
-                "zendframework/zend-developer-tools": "self.version"
+                "zendframework/zend-developer-tools": "^2.0.0"
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
@@ -3356,7 +3356,7 @@
                 "laminas",
                 "module"
             ],
-            "time": "2020-03-21T17:57:57+00:00"
+            "time": "2020-03-29T12:19:10+00:00"
         },
         {
             "name": "laminas/laminas-development-mode",
