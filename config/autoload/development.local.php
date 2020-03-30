@@ -18,7 +18,13 @@
 
 return [
     'view_manager' => [
-    	'display_not_found_reason' => true,
+    	/**
+         * Display Exceptions
+         */
         'display_exceptions' => true,
+        /**
+         * Display Not found (404)
+         */
+        'display_not_found_reason' => true
     ],
 ];
