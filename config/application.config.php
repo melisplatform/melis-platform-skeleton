@@ -9,15 +9,7 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => array_merge(
-        [
-            'Laminas\I18n', // handle translate view plugin
-            'Laminas\Mvc\I18n', // Translation
-            'Laminas\Router',
-            'Laminas\Form',
-            'Laminas\Validator',
-            'Laminas\Db',
-            'Laminas\InputFilter'
-        ],
+        MelisInstaller\MelisModuleManager::getModuleComponents(),
         MelisInstaller\MelisModuleManager::getModules()
     ),
 
