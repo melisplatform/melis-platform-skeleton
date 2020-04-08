@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "composer/ca-bundle",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "47fe531de31fca4a1b997f87308e7d7804348f7e"
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/47fe531de31fca4a1b997f87308e7d7804348f7e",
-                "reference": "47fe531de31fca4a1b997f87308e7d7804348f7e",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/95c63ab2117a72f48f5a55da9740a3273d45b7fd",
+                "reference": "95c63ab2117a72f48f5a55da9740a3273d45b7fd",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,17 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2020-01-13T10:02:55+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-08T08:27:21+00:00"
         },
         {
             "name": "composer/composer",
@@ -1848,16 +1858,16 @@
         },
         {
             "name": "laminas/laminas-validator",
-            "version": "2.13.3",
+            "version": "2.13.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-validator.git",
-                "reference": "a4e57af743eb751a8e6fa75460e439841c97833e"
+                "reference": "93593684e70b8ed1e870cacd34ca32b0c0ace185"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/a4e57af743eb751a8e6fa75460e439841c97833e",
-                "reference": "a4e57af743eb751a8e6fa75460e439841c97833e",
+                "url": "https://api.github.com/repos/laminas/laminas-validator/zipball/93593684e70b8ed1e870cacd34ca32b0c0ace185",
+                "reference": "93593684e70b8ed1e870cacd34ca32b0c0ace185",
                 "shasum": ""
             },
             "require": {
@@ -1923,7 +1933,7 @@
                 "laminas",
                 "validator"
             ],
-            "time": "2020-03-29T13:43:20+00:00"
+            "time": "2020-03-31T18:57:01+00:00"
         },
         {
             "name": "laminas/laminas-view",
@@ -2018,16 +2028,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b"
+                "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/faf68f6109ceeff24241226033ab59640c7eb63b",
-                "reference": "faf68f6109ceeff24241226033ab59640c7eb63b",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
+                "reference": "bfbbdb6c998d50dbf69d2187cb78a5f1fa36e1e9",
                 "shasum": ""
             },
             "require": {
@@ -2066,7 +2076,13 @@
                 "laminas",
                 "zf"
             ],
-            "time": "2020-03-26T16:07:12+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-04-03T16:01:00+00:00"
         },
         {
             "name": "melisplatform/melis-asset-manager",
@@ -2074,12 +2090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "6b79ea00204805e689e24f05b491995c7dfdc4cb"
+                "reference": "43c4cd3fb1db16f919920d4d0c1af00b1040311a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/6b79ea00204805e689e24f05b491995c7dfdc4cb",
-                "reference": "6b79ea00204805e689e24f05b491995c7dfdc4cb",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/43c4cd3fb1db16f919920d4d0c1af00b1040311a",
+                "reference": "43c4cd3fb1db16f919920d4d0c1af00b1040311a",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2135,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T07:51:34+00:00"
+            "time": "2020-04-08T10:19:37+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -2127,12 +2143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "08585300343706aa2a4d135b992de798d3dbe1af"
+                "reference": "7aa6d3866143f8888116ad6daf41a0bb9b99678a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/08585300343706aa2a4d135b992de798d3dbe1af",
-                "reference": "08585300343706aa2a4d135b992de798d3dbe1af",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/7aa6d3866143f8888116ad6daf41a0bb9b99678a",
+                "reference": "7aa6d3866143f8888116ad6daf41a0bb9b99678a",
                 "shasum": ""
             },
             "require": {
@@ -2167,7 +2183,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T10:20:14+00:00"
+            "time": "2020-04-08T10:21:15+00:00"
         },
         {
             "name": "melisplatform/melis-core",
@@ -2175,12 +2191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "c8d3548821d8c392765f58361e8ed578860950e7"
+                "reference": "b4ca922785a2f4185b321390f4a7f775a579c6ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/c8d3548821d8c392765f58361e8ed578860950e7",
-                "reference": "c8d3548821d8c392765f58361e8ed578860950e7",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/b4ca922785a2f4185b321390f4a7f775a579c6ad",
+                "reference": "b4ca922785a2f4185b321390f4a7f775a579c6ad",
                 "shasum": ""
             },
             "require": {
@@ -2224,7 +2240,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-30T04:10:55+00:00"
+            "time": "2020-04-08T10:25:03+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -2232,12 +2248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "0383247b858b93d0d6e71af067983a15a8f98210"
+                "reference": "ea4e3e89131f5a8cd734fcb043c67ad3ed7ba457"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/0383247b858b93d0d6e71af067983a15a8f98210",
-                "reference": "0383247b858b93d0d6e71af067983a15a8f98210",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/ea4e3e89131f5a8cd734fcb043c67ad3ed7ba457",
+                "reference": "ea4e3e89131f5a8cd734fcb043c67ad3ed7ba457",
                 "shasum": ""
             },
             "require": {
@@ -2271,7 +2287,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-27T07:08:47+00:00"
+            "time": "2020-04-08T10:25:41+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
@@ -2279,12 +2295,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "5bf336fda835c49a76bf11dadf2823a9e33ecc3e"
+                "reference": "692bb81e11fcf0785310664395fa1c2b86538d96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/5bf336fda835c49a76bf11dadf2823a9e33ecc3e",
-                "reference": "5bf336fda835c49a76bf11dadf2823a9e33ecc3e",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/692bb81e11fcf0785310664395fa1c2b86538d96",
+                "reference": "692bb81e11fcf0785310664395fa1c2b86538d96",
                 "shasum": ""
             },
             "require": {
@@ -2325,7 +2341,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-30T04:04:48+00:00"
+            "time": "2020-04-08T10:29:11+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -2333,12 +2349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "6c7269a2ab7fdfa24ae8c4c056b36934908acaa7"
+                "reference": "3598ce5f7084a1e8799da9e83d1ff0ed4a55bd2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/6c7269a2ab7fdfa24ae8c4c056b36934908acaa7",
-                "reference": "6c7269a2ab7fdfa24ae8c4c056b36934908acaa7",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/3598ce5f7084a1e8799da9e83d1ff0ed4a55bd2c",
+                "reference": "3598ce5f7084a1e8799da9e83d1ff0ed4a55bd2c",
                 "shasum": ""
             },
             "require": {
@@ -2383,7 +2399,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-30T03:53:35+00:00"
+            "time": "2020-04-08T10:30:46+00:00"
         },
         {
             "name": "phing/phing",
@@ -2669,16 +2685,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.6",
+            "version": "v4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "20bc0c1068565103075359f5ce9e0639b36f92d1"
+                "reference": "10bb3ee3c97308869d53b3e3d03f6ac23ff985f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/20bc0c1068565103075359f5ce9e0639b36f92d1",
-                "reference": "20bc0c1068565103075359f5ce9e0639b36f92d1",
+                "url": "https://api.github.com/repos/symfony/console/zipball/10bb3ee3c97308869d53b3e3d03f6ac23ff985f7",
+                "reference": "10bb3ee3c97308869d53b3e3d03f6ac23ff985f7",
                 "shasum": ""
             },
             "require": {
@@ -2755,20 +2771,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-16T08:56:54+00:00"
+            "time": "2020-03-30T11:41:10+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.6",
+            "version": "v4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "6d4fdf28187250f671c1edc9cf921ebfb7fe3809"
+                "reference": "fe297193bf2e6866ed900ed2d5869362768df6a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/6d4fdf28187250f671c1edc9cf921ebfb7fe3809",
-                "reference": "6d4fdf28187250f671c1edc9cf921ebfb7fe3809",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/fe297193bf2e6866ed900ed2d5869362768df6a7",
+                "reference": "fe297193bf2e6866ed900ed2d5869362768df6a7",
                 "shasum": ""
             },
             "require": {
@@ -2819,20 +2835,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-16T08:56:54+00:00"
+            "time": "2020-03-27T16:54:36+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.6",
+            "version": "v4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "ea69c129aed9fdeca781d4b77eb20b62cf5d5357"
+                "reference": "5729f943f9854c5781984ed4907bbb817735776b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/ea69c129aed9fdeca781d4b77eb20b62cf5d5357",
-                "reference": "ea69c129aed9fdeca781d4b77eb20b62cf5d5357",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5729f943f9854c5781984ed4907bbb817735776b",
+                "reference": "5729f943f9854c5781984ed4907bbb817735776b",
                 "shasum": ""
             },
             "require": {
@@ -2882,7 +2898,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-02-14T07:42:58+00:00"
+            "time": "2020-03-27T16:54:36+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3103,16 +3119,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.6",
+            "version": "v4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "b9863d0f7b684d7c4c13e665325b5ff047de0aee"
+                "reference": "3e40e87a20eaf83a1db825e1fa5097ae89042db3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/b9863d0f7b684d7c4c13e665325b5ff047de0aee",
-                "reference": "b9863d0f7b684d7c4c13e665325b5ff047de0aee",
+                "url": "https://api.github.com/repos/symfony/process/zipball/3e40e87a20eaf83a1db825e1fa5097ae89042db3",
+                "reference": "3e40e87a20eaf83a1db825e1fa5097ae89042db3",
                 "shasum": ""
             },
             "require": {
@@ -3162,7 +3178,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-23T12:37:11+00:00"
+            "time": "2020-03-27T16:54:36+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -4445,16 +4461,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.4.6",
+            "version": "v4.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "6dae4692ac91230b33b70d9a48882ff5c838d67a"
+                "reference": "5a0c2d93006131a36cf6f767d10e2ca8333b0d4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6dae4692ac91230b33b70d9a48882ff5c838d67a",
-                "reference": "6dae4692ac91230b33b70d9a48882ff5c838d67a",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/5a0c2d93006131a36cf6f767d10e2ca8333b0d4a",
+                "reference": "5a0c2d93006131a36cf6f767d10e2ca8333b0d4a",
                 "shasum": ""
             },
             "require": {
@@ -4531,20 +4547,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-18T07:15:43+00:00"
+            "time": "2020-03-27T16:54:36+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.38",
+            "version": "v3.4.39",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "bc63e15160866e8730a1f738541b194c401f72bf"
+                "reference": "e701b47e11749970f63803879c4febb520f07b6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/bc63e15160866e8730a1f738541b194c401f72bf",
-                "reference": "bc63e15160866e8730a1f738541b194c401f72bf",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/e701b47e11749970f63803879c4febb520f07b6c",
+                "reference": "e701b47e11749970f63803879c4febb520f07b6c",
                 "shasum": ""
             },
             "require": {
@@ -4604,7 +4620,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-01-16T19:04:26+00:00"
+            "time": "2020-03-25T12:02:26+00:00"
         },
         {
             "name": "webmozart/assert",
