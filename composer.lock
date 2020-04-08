@@ -2248,12 +2248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "ea4e3e89131f5a8cd734fcb043c67ad3ed7ba457"
+                "reference": "7e514e0f5d01e71d29f34b29e214ae44f5f615c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/ea4e3e89131f5a8cd734fcb043c67ad3ed7ba457",
-                "reference": "ea4e3e89131f5a8cd734fcb043c67ad3ed7ba457",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/7e514e0f5d01e71d29f34b29e214ae44f5f615c4",
+                "reference": "7e514e0f5d01e71d29f34b29e214ae44f5f615c4",
                 "shasum": ""
             },
             "require": {
@@ -2287,7 +2287,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-04-08T10:25:41+00:00"
+            "time": "2020-04-08T11:01:50+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
