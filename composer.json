@@ -50,5 +50,11 @@
         "phpunit/phpunit": "~4.8",
         "laminas/laminas-code": "^3.4",
         "laminas/laminas-developer-tools": "^2.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/melisplatform/melis-platform-skeleton",
+        }
+    ]
 }
