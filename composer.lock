@@ -2191,12 +2191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "b4ca922785a2f4185b321390f4a7f775a579c6ad"
+                "reference": "b72e9c2874f2c43234f7f0457ae20e8cccefea11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/b4ca922785a2f4185b321390f4a7f775a579c6ad",
-                "reference": "b4ca922785a2f4185b321390f4a7f775a579c6ad",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/b72e9c2874f2c43234f7f0457ae20e8cccefea11",
+                "reference": "b72e9c2874f2c43234f7f0457ae20e8cccefea11",
                 "shasum": ""
             },
             "require": {
@@ -2240,7 +2240,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-04-08T10:25:03+00:00"
+            "time": "2020-04-17T03:36:21+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -4592,20 +4592,6 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-25T12:02:26+00:00"
         },
         {
