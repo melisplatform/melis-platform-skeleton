@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=melisplatform_melis-platform-skeleton&metric=alert_status)](https://sonarcloud.io/dashboard?id=melisplatform_melis-platform-skeleton)
+
 # Melis Platform Skeleton
 
 The skeleton of Melis Platform.  
