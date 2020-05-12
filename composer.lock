@@ -578,16 +578,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:melisplatform/melis-asset-manager.git",
-                "reference": "c9550102f473f1526666986dfc1903fd81510685"
+                "url": "https://github.com/melisplatform/melis-asset-manager.git",
+                "reference": "32ddc1fe7a10924282455b19314c64479aba7dc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/c9550102f473f1526666986dfc1903fd81510685",
-                "reference": "c9550102f473f1526666986dfc1903fd81510685",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/32ddc1fe7a10924282455b19314c64479aba7dc2",
+                "reference": "32ddc1fe7a10924282455b19314c64479aba7dc2",
                 "shasum": ""
             },
             "require": {
@@ -627,20 +627,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-02-03T04:16:43+00:00"
+            "time": "2020-05-12T09:06:16+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:melisplatform/melis-composerdeploy.git",
-                "reference": "80ce7365af3296750467898a5ef9d33757114f9c"
+                "url": "https://github.com/melisplatform/melis-composerdeploy.git",
+                "reference": "687f254d9b50f09eff2dffa7bf30a7ab2a398e7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/80ce7365af3296750467898a5ef9d33757114f9c",
-                "reference": "80ce7365af3296750467898a5ef9d33757114f9c",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/687f254d9b50f09eff2dffa7bf30a7ab2a398e7e",
+                "reference": "687f254d9b50f09eff2dffa7bf30a7ab2a398e7e",
                 "shasum": ""
             },
             "require": {
@@ -676,20 +676,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2019-11-07T04:55:29+00:00"
+            "time": "2020-05-12T09:11:25+00:00"
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v3.2.6",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "27cdbd8c0b3925b339b03b81735c10ee26c98a2d"
+                "reference": "92c4995ca9b4c13308ecfbd5511ec5438c02eb3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/27cdbd8c0b3925b339b03b81735c10ee26c98a2d",
-                "reference": "27cdbd8c0b3925b339b03b81735c10ee26c98a2d",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/92c4995ca9b4c13308ecfbd5511ec5438c02eb3f",
+                "reference": "92c4995ca9b4c13308ecfbd5511ec5438c02eb3f",
                 "shasum": ""
             },
             "require": {
@@ -736,7 +736,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-04-29T04:01:48+00:00"
+            "time": "2020-05-12T09:13:21+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -788,16 +788,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.2.3",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "134c05a082567b5ce608b946037d71924bb1061f"
+                "reference": "909d9349e770d7351aa914c40bddbc23dae32004"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/134c05a082567b5ce608b946037d71924bb1061f",
-                "reference": "134c05a082567b5ce608b946037d71924bb1061f",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/909d9349e770d7351aa914c40bddbc23dae32004",
+                "reference": "909d9349e770d7351aa914c40bddbc23dae32004",
                 "shasum": ""
             },
             "require": {
@@ -841,7 +841,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-03-10T10:05:14+00:00"
+            "time": "2020-05-12T09:09:07+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -2440,20 +2440,20 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.7.2",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "e2e5d290e4d2a4f0eb449f510071392e00e10d19"
+                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/e2e5d290e4d2a4f0eb449f510071392e00e10d19",
-                "reference": "e2e5d290e4d2a4f0eb449f510071392e00e10d19",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3 || ^7.0"
+                "php": "^5.3 || ^7.0 || ^8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
@@ -2485,7 +2485,17 @@
                 "parser",
                 "validator"
             ],
-            "time": "2019-10-24T14:27:39+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-30T19:05:18+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -2750,16 +2760,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1aab00e39cebaef4d8652497f46c15c1b7e45294",
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294",
                 "shasum": ""
             },
             "require": {
@@ -2771,7 +2781,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -2818,20 +2828,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
+                "reference": "a54881ec0ab3b2005c406aed0023c062879031e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
-                "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a54881ec0ab3b2005c406aed0023c062879031e7",
+                "reference": "a54881ec0ab3b2005c406aed0023c062879031e7",
                 "shasum": ""
             },
             "require": {
@@ -2843,7 +2853,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -2891,20 +2901,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-03-09T19:04:49+00:00"
+            "time": "2020-05-08T16:50:20+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7"
+                "reference": "7e95fe59d12169fcf4041487e4bf34fca37ee0ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7",
-                "reference": "0f27e9f464ea3da33cbe7ca3bdf4eb66def9d0f7",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/7e95fe59d12169fcf4041487e4bf34fca37ee0ed",
+                "reference": "7e95fe59d12169fcf4041487e4bf34fca37ee0ed",
                 "shasum": ""
             },
             "require": {
@@ -2913,7 +2923,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -2963,7 +2973,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "time": "2020-05-02T14:56:09+00:00"
         },
         {
             "name": "symfony/process",
@@ -5752,27 +5762,28 @@
         },
         {
             "name": "zendframework/zend-soap",
-            "version": "2.6.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-soap.git",
-                "reference": "2d6012e7231cce550219eccfc80836a028d20bf1"
+                "reference": "8762d79efa220d82529c43ce08d70554146be645"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-soap/zipball/2d6012e7231cce550219eccfc80836a028d20bf1",
-                "reference": "2d6012e7231cce550219eccfc80836a028d20bf1",
+                "url": "https://api.github.com/repos/zendframework/zend-soap/zipball/8762d79efa220d82529c43ce08d70554146be645",
+                "reference": "8762d79efa220d82529c43ce08d70554146be645",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
+                "ext-soap": "*",
+                "php": "^5.6 || ^7.0",
                 "zendframework/zend-server": "^2.6.1",
                 "zendframework/zend-stdlib": "^2.7 || ^3.0",
                 "zendframework/zend-uri": "^2.5.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "^2.3.1",
+                "phpunit/phpunit": "^5.7.21 || ^6.3",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-config": "^2.6",
                 "zendframework/zend-http": "^2.5.4"
             },
@@ -5782,8 +5793,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev",
-                    "dev-develop": "2.7-dev"
+                    "dev-master": "2.7.x-dev",
+                    "dev-develop": "2.8.x-dev"
                 }
             },
             "autoload": {
@@ -5801,7 +5812,7 @@
                 "zf2"
             ],
             "abandoned": "laminas/laminas-soap",
-            "time": "2016-04-21T16:06:27+00:00"
+            "time": "2019-04-30T16:45:35+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
