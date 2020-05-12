@@ -578,16 +578,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "32ddc1fe7a10924282455b19314c64479aba7dc2"
+                "reference": "570a81382f1fa7276f6e76862ab9a9379deb74b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/32ddc1fe7a10924282455b19314c64479aba7dc2",
-                "reference": "32ddc1fe7a10924282455b19314c64479aba7dc2",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/570a81382f1fa7276f6e76862ab9a9379deb74b6",
+                "reference": "570a81382f1fa7276f6e76862ab9a9379deb74b6",
                 "shasum": ""
             },
             "require": {
@@ -627,20 +627,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-05-12T09:06:16+00:00"
+            "time": "2020-05-12T15:54:46+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "687f254d9b50f09eff2dffa7bf30a7ab2a398e7e"
+                "reference": "298a39e66c2e330dd6c7da41a9c9cfd9c97e4751"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/687f254d9b50f09eff2dffa7bf30a7ab2a398e7e",
-                "reference": "687f254d9b50f09eff2dffa7bf30a7ab2a398e7e",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/298a39e66c2e330dd6c7da41a9c9cfd9c97e4751",
+                "reference": "298a39e66c2e330dd6c7da41a9c9cfd9c97e4751",
                 "shasum": ""
             },
             "require": {
@@ -676,7 +676,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-05-12T09:11:25+00:00"
+            "time": "2020-05-12T15:57:33+00:00"
         },
         {
             "name": "melisplatform/melis-core",
@@ -788,16 +788,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v3.2.4",
+            "version": "v3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "909d9349e770d7351aa914c40bddbc23dae32004"
+                "reference": "415d1a66e2b34944d6f1746fc09c4b99ed5f5860"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/909d9349e770d7351aa914c40bddbc23dae32004",
-                "reference": "909d9349e770d7351aa914c40bddbc23dae32004",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/415d1a66e2b34944d6f1746fc09c4b99ed5f5860",
+                "reference": "415d1a66e2b34944d6f1746fc09c4b99ed5f5860",
                 "shasum": ""
             },
             "require": {
@@ -841,7 +841,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-05-12T09:09:07+00:00"
+            "time": "2020-05-12T15:59:36+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
