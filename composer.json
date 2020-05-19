@@ -48,7 +48,7 @@
         "post-create-project-cmd": "php bin/update-gitignore.php"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8",
+        "phpunit/phpunit": "5.7.27",
         "laminas/laminas-code": "^3.4",
         "laminas/laminas-developer-tools": "^2.0"
     }
