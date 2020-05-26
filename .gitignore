@@ -17,3 +17,4 @@ bin/*
 /deployment.xml
 public/cache/
 module/MelisModuleConfig/config/translation.list.php
+dbdeploy/
