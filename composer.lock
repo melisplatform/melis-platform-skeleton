@@ -2370,12 +2370,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "1c4f8072c60cb9e45c2dccdd9dca94f59bc540eb"
+                "reference": "cfb3105ba22d90e42b1d462d2ef60419968fc924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/1c4f8072c60cb9e45c2dccdd9dca94f59bc540eb",
-                "reference": "1c4f8072c60cb9e45c2dccdd9dca94f59bc540eb",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/cfb3105ba22d90e42b1d462d2ef60419968fc924",
+                "reference": "cfb3105ba22d90e42b1d462d2ef60419968fc924",
                 "shasum": ""
             },
             "require": {
@@ -2416,7 +2416,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-06-10T08:07:49+00:00"
+            "time": "2020-06-10T09:12:44+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
