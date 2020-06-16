@@ -2165,12 +2165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "78a7fd3f1bee1e90561c68bfd3b356678563f078"
+                "reference": "a2a10d4011ec16b4860a3a1bff8c118a003b910e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/78a7fd3f1bee1e90561c68bfd3b356678563f078",
-                "reference": "78a7fd3f1bee1e90561c68bfd3b356678563f078",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/a2a10d4011ec16b4860a3a1bff8c118a003b910e",
+                "reference": "a2a10d4011ec16b4860a3a1bff8c118a003b910e",
                 "shasum": ""
             },
             "require": {
@@ -2210,7 +2210,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-06-09T08:43:19+00:00"
+            "time": "2020-06-16T04:01:31+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -2266,12 +2266,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "98ef24dd07ffdb1dd0f95ab06a1ae8b59d7af8c0"
+                "reference": "8e13be09b230fd5bcf599b4793a3ae93d835bbd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/98ef24dd07ffdb1dd0f95ab06a1ae8b59d7af8c0",
-                "reference": "98ef24dd07ffdb1dd0f95ab06a1ae8b59d7af8c0",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/8e13be09b230fd5bcf599b4793a3ae93d835bbd1",
+                "reference": "8e13be09b230fd5bcf599b4793a3ae93d835bbd1",
                 "shasum": ""
             },
             "require": {
@@ -2315,7 +2315,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-06-08T05:44:57+00:00"
+            "time": "2020-06-16T04:08:25+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -2370,12 +2370,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "cfb3105ba22d90e42b1d462d2ef60419968fc924"
+                "reference": "e7d8c7b282b764797835800a7be7837059a104cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/cfb3105ba22d90e42b1d462d2ef60419968fc924",
-                "reference": "cfb3105ba22d90e42b1d462d2ef60419968fc924",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/e7d8c7b282b764797835800a7be7837059a104cf",
+                "reference": "e7d8c7b282b764797835800a7be7837059a104cf",
                 "shasum": ""
             },
             "require": {
@@ -2416,20 +2416,20 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-06-10T09:12:44+00:00"
+            "time": "2020-06-16T04:10:40+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
             "version": "dev-migrate/laminas",
             "source": {
                 "type": "git",
-                "url": "git@github.com:melisplatform/melis-marketplace.git",
-                "reference": "8e511661c2d36a5dc9b35b55fb1f7dbf724136b6"
+                "url": "https://github.com/melisplatform/melis-marketplace.git",
+                "reference": "b3994108d285445895cbc2fd9405cba6a9a105b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/8e511661c2d36a5dc9b35b55fb1f7dbf724136b6",
-                "reference": "8e511661c2d36a5dc9b35b55fb1f7dbf724136b6",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/b3994108d285445895cbc2fd9405cba6a9a105b0",
+                "reference": "b3994108d285445895cbc2fd9405cba6a9a105b0",
                 "shasum": ""
             },
             "require": {
@@ -2474,7 +2474,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-06-08T05:53:36+00:00"
+            "time": "2020-06-16T04:11:01+00:00"
         },
         {
             "name": "phing/phing",
@@ -2770,7 +2770,7 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
@@ -2861,7 +2861,7 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -2925,7 +2925,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -3281,7 +3281,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -4634,7 +4634,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.4.9",
+            "version": "v4.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
@@ -4725,7 +4725,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.41",
+            "version": "v3.4.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
