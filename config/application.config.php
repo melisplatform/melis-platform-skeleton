@@ -9,8 +9,8 @@
 return [
     // Retrieve list of modules used in this application.
     'modules' => array_merge(
-        MelisInstaller\MelisModuleManager::getModuleComponents(),
-        MelisInstaller\MelisModuleManager::getModules()
+        MelisCore\MelisModuleManager::getModuleComponents(),
+        MelisCore\MelisModuleManager::getModules()
     ),
 
     // These are various options for the listeners attached to the ModuleManager

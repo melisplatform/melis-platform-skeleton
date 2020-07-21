@@ -24,3 +24,6 @@ build/*
 /deployment.xml
 module/MelisModuleConfig/config/translation.list.php
 dbdeploy/
+# development mode config
+config/autoload/development.local.php
+config/development.config.php
