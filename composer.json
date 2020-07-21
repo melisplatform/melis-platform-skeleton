@@ -47,8 +47,5 @@
     "development-disable": "laminas-development-mode disable",
     "development-enable": "laminas-development-mode enable",
     "development-status": "laminas-development-mode status"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.8"
   }
 }
