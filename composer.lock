@@ -1453,16 +1453,16 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.12.0",
+            "version": "2.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "5e8bc77db515c2a207ee25df5f3464f121daf225"
+                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/5e8bc77db515c2a207ee25df5f3464f121daf225",
-                "reference": "5e8bc77db515c2a207ee25df5f3464f121daf225",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
+                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
                 "shasum": ""
             },
             "require": {
@@ -1491,10 +1491,6 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "2.12.x-dev",
-                    "dev-develop": "2.13.x-dev"
-                },
                 "laminas": {
                     "component": "Laminas\\Mail",
                     "config-provider": "Laminas\\Mail\\ConfigProvider"
@@ -1521,7 +1517,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-07-30T16:09:35+00:00"
+            "time": "2020-08-06T14:33:28+00:00"
         },
         {
             "name": "laminas/laminas-mime",
@@ -2434,12 +2430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "f36ba8627523a9b825ee34e336859440c2aec329"
+                "reference": "87d65004136bff285e1316fb52aad552b0e2fe62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/f36ba8627523a9b825ee34e336859440c2aec329",
-                "reference": "f36ba8627523a9b825ee34e336859440c2aec329",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/87d65004136bff285e1316fb52aad552b0e2fe62",
+                "reference": "87d65004136bff285e1316fb52aad552b0e2fe62",
                 "shasum": ""
             },
             "require": {
@@ -2484,7 +2480,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-08-04T10:25:16+00:00"
+            "time": "2020-08-07T05:05:50+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
