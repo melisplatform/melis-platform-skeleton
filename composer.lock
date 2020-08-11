@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07a8ab4a132ea1a0202fd8714918749e",
+    "content-hash": "ecaba4e6f13591e15de9ed2186b23b1c",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -573,6 +573,62 @@
                 "laminas"
             ],
             "time": "2019-12-31T16:30:11+00:00"
+        },
+        {
+            "name": "laminas/laminas-crypt",
+            "version": "3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-crypt.git",
+                "reference": "5f5dfe3ca08c965cc1f44f95831a83a81a93bf78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-crypt/zipball/5f5dfe3ca08c965cc1f44f95831a83a81a93bf78",
+                "reference": "5f5dfe3ca08c965cc1f44f95831a83a81a93bf78",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "^1.2",
+                "ext-mbstring": "*",
+                "laminas/laminas-math": "^3.0",
+                "laminas/laminas-stdlib": "^2.7.7 || ^3.1",
+                "laminas/laminas-zendframework-bridge": "^1.0",
+                "php": "^5.6 || ^7.0"
+            },
+            "replace": {
+                "zendframework/zend-crypt": "self.version"
+            },
+            "require-dev": {
+                "laminas/laminas-coding-standard": "~1.0.0",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2"
+            },
+            "suggest": {
+                "ext-openssl": "Required for most features of Laminas\\Crypt"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev",
+                    "dev-develop": "3.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laminas\\Crypt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Strong cryptography tools and password hashing",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "crypt",
+                "laminas"
+            ],
+            "time": "2019-12-31T16:33:24+00:00"
         },
         {
             "name": "laminas/laminas-db",
@@ -1520,6 +1576,61 @@
             "time": "2020-08-06T14:33:28+00:00"
         },
         {
+            "name": "laminas/laminas-math",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-math.git",
+                "reference": "dd603c7d151d46eafd243a405d5b7eefa4222d74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-math/zipball/dd603c7d151d46eafd243a405d5b7eefa4222d74",
+                "reference": "dd603c7d151d46eafd243a405d5b7eefa4222d74",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "laminas/laminas-zendframework-bridge": "^1.0",
+                "paragonie/random_compat": "^2.0.11 || 9.99.99",
+                "php": "^5.6 || ^7.0"
+            },
+            "replace": {
+                "zendframework/zend-math": "self.version"
+            },
+            "require-dev": {
+                "laminas/laminas-coding-standard": "~1.0.0",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2"
+            },
+            "suggest": {
+                "ext-bcmath": "If using the bcmath functionality",
+                "ext-gmp": "If using the gmp functionality"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2.x-dev",
+                    "dev-develop": "3.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laminas\\Math\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Create cryptographically secure pseudo-random numbers, and manage big integers",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "laminas",
+                "math"
+            ],
+            "time": "2019-12-31T17:24:18+00:00"
+        },
+        {
             "name": "laminas/laminas-mime",
             "version": "2.7.4",
             "source": {
@@ -2329,12 +2440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "6f7b7490e41a5c4f82fe479af63af70f616f7401"
+                "reference": "8d321364a8c95ce32a8d0a48c46bfb5ea3ea045e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/6f7b7490e41a5c4f82fe479af63af70f616f7401",
-                "reference": "6f7b7490e41a5c4f82fe479af63af70f616f7401",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/8d321364a8c95ce32a8d0a48c46bfb5ea3ea045e",
+                "reference": "8d321364a8c95ce32a8d0a48c46bfb5ea3ea045e",
                 "shasum": ""
             },
             "require": {
@@ -2374,7 +2485,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-07-22T09:21:00+00:00"
+            "time": "2020-08-11T07:51:42+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -2640,6 +2751,51 @@
                 "zf2"
             ],
             "time": "2020-06-16T04:11:01+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v9.99.99",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*",
+                "vimeo/psalm": "^1"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "polyfill",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2018-07-02T15:55:56+00:00"
         },
         {
             "name": "phing/phing",
