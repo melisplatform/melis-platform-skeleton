@@ -2541,12 +2541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "87d65004136bff285e1316fb52aad552b0e2fe62"
+                "reference": "83c13dbd972c1b06073b680d0b9dbf45e1c2bb7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/87d65004136bff285e1316fb52aad552b0e2fe62",
-                "reference": "87d65004136bff285e1316fb52aad552b0e2fe62",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/83c13dbd972c1b06073b680d0b9dbf45e1c2bb7d",
+                "reference": "83c13dbd972c1b06073b680d0b9dbf45e1c2bb7d",
                 "shasum": ""
             },
             "require": {
@@ -2591,7 +2591,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-08-07T05:05:50+00:00"
+            "time": "2020-08-11T12:19:11+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -2646,12 +2646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "3c46266b23d8f8dc90cdffbf6e4da3bbe8ec2667"
+                "reference": "8ba8d350f256d8f58ba27bcc88e924505d4711b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/3c46266b23d8f8dc90cdffbf6e4da3bbe8ec2667",
-                "reference": "3c46266b23d8f8dc90cdffbf6e4da3bbe8ec2667",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/8ba8d350f256d8f58ba27bcc88e924505d4711b8",
+                "reference": "8ba8d350f256d8f58ba27bcc88e924505d4711b8",
                 "shasum": ""
             },
             "require": {
@@ -2692,7 +2692,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-07-21T08:29:06+00:00"
+            "time": "2020-08-12T10:28:08+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
