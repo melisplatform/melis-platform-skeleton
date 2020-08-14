@@ -1509,16 +1509,16 @@
         },
         {
             "name": "laminas/laminas-mail",
-            "version": "2.12.2",
+            "version": "2.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-mail.git",
-                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b"
+                "reference": "c154a733b122539ac2c894561996c770db289f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
-                "reference": "a85bd6ec20ebc382498cc1d3086dfe3fa201849b",
+                "url": "https://api.github.com/repos/laminas/laminas-mail/zipball/c154a733b122539ac2c894561996c770db289f70",
+                "reference": "c154a733b122539ac2c894561996c770db289f70",
                 "shasum": ""
             },
             "require": {
@@ -1573,7 +1573,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-08-06T14:33:28+00:00"
+            "time": "2020-08-12T14:51:33+00:00"
         },
         {
             "name": "laminas/laminas-math",
@@ -2541,12 +2541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "83c13dbd972c1b06073b680d0b9dbf45e1c2bb7d"
+                "reference": "90c9ead37cee58c9d5018f9ff03aef937c21aa8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/83c13dbd972c1b06073b680d0b9dbf45e1c2bb7d",
-                "reference": "83c13dbd972c1b06073b680d0b9dbf45e1c2bb7d",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/90c9ead37cee58c9d5018f9ff03aef937c21aa8c",
+                "reference": "90c9ead37cee58c9d5018f9ff03aef937c21aa8c",
                 "shasum": ""
             },
             "require": {
@@ -2591,7 +2591,7 @@
                 "module",
                 "zf2"
             ],
-            "time": "2020-08-11T12:19:11+00:00"
+            "time": "2020-08-14T10:29:23+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -2988,16 +2988,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1"
+                "reference": "3d5eb71705adfa34bd34b993400622932b2f62fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
-                "reference": "ff2aa5420bfbc296cf6a0bc785fa5b35736de7c1",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/3d5eb71705adfa34bd34b993400622932b2f62fd",
+                "reference": "3d5eb71705adfa34bd34b993400622932b2f62fd",
                 "shasum": ""
             },
             "require": {
@@ -3043,7 +3043,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-30T19:05:18+00:00"
+            "time": "2020-08-13T09:07:59+00:00"
         },
         {
             "name": "seld/phar-utils",
