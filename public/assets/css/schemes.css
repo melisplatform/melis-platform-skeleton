@@ -49,6 +49,13 @@ body .navbar.main.navbar-primary {
 .navbar.main .nav.navbar-right li {
     border-bottom: 1px solid #c52127;
 }
+.nav-pills > li > a,
+.nav-pills > li > a:hover,
+.nav-tabs > li > a:hover {
+    background: #fff;
+    color: #e61c23;
+    text-shadow: none;
+}
 
 .sidebar.sidebar-inverse .user-profile ul li.active,
 .sidebar.sidebar-inverse .user-profile ul li.active:hover {

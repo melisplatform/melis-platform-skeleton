@@ -93,7 +93,7 @@ or (iii) beneficial ownership of such entity.
 15) Right to Use. You may use the Original Work in all ways not otherwise restricted or conditioned by this License or by law, and Licensor promises 
 not to interfere with or be responsible for such uses by You.
 
-16) Modification of This License. This License is Copyright © 2005 Lawrence Rosen. Permission is granted to copy, distribute, or communicate this 
+16) Modification of This License. This License is Copyright Â© 2005 Lawrence Rosen. Permission is granted to copy, distribute, or communicate this 
 License without modification. Nothing in this License permits You to modify this License as applied to the Original Work or to Derivative Works. 
 However, You may modify the text of this License and copy, distribute or communicate your modified version (the "Modified License") and apply it to 
 other original works of authorship subject to the following conditions: (i) You may not indicate in any way that your Modified License is the "Open 

@@ -1,4 +1,11 @@
+.vagrant/
 vendor/
+#config/development.config.php
+data/cache/*
+!data/cache/.gitkeep
+phpunit.xml
+.phpunit.result.cache
+
 logs/*
 !.gitkeep
 node_modules/
@@ -6,8 +13,8 @@ tmp
 .DS_Store
 build/
 build/*
-bin/
-bin/*
+# bin/
+# bin/*
 .settings/
 .settings/*
 .idea/
@@ -15,6 +22,12 @@ bin/*
 .project
 /deployment.properties
 /deployment.xml
-public/cache/
 module/MelisModuleConfig/config/translation.list.php
 dbdeploy/
+# development mode config
+config/autoload/development.local.php
+config/development.config.php
+# isntallation changes
+config/melis.module.load.php
+module/MelisModuleConfig/config/app.interface.php
+config/melis.install
