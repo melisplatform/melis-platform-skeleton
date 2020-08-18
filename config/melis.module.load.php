@@ -1,9 +1,10 @@
 <?php
-return array(
+
+return [
   'MelisAssetManager',
   'MelisDbDeploy',
   'MelisComposerDeploy',
   'MelisMarketPlace',
   'MelisInstaller',
   'MelisModuleConfig',
-);
+];
