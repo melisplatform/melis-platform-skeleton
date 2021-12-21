@@ -2506,16 +2506,16 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v4.0.0",
+            "version": "dev-update/composerv2-compatibility",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "a99fa28725fcfe66c14377c11144e69fc88a4120"
+                "reference": "8898605fb37cc4c0d739a26f230d0553adc27a74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/a99fa28725fcfe66c14377c11144e69fc88a4120",
-                "reference": "a99fa28725fcfe66c14377c11144e69fc88a4120",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/8898605fb37cc4c0d739a26f230d0553adc27a74",
+                "reference": "8898605fb37cc4c0d739a26f230d0553adc27a74",
                 "shasum": ""
             },
             "require": {
@@ -2718,16 +2718,16 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v4.0.0",
+            "version": "dev-update/composerv2-compatibility",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "fd1b02a2335ebc677032af305e35671ce417da4d"
+                "reference": "9574172f041e3bf566aa9e8f2b6457bafc43b71a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/fd1b02a2335ebc677032af305e35671ce417da4d",
-                "reference": "fd1b02a2335ebc677032af305e35671ce417da4d",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/9574172f041e3bf566aa9e8f2b6457bafc43b71a",
+                "reference": "9574172f041e3bf566aa9e8f2b6457bafc43b71a",
                 "shasum": ""
             },
             "require": {
@@ -3993,9 +3993,25 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "melisplatform/melis-composerdeploy",
+            "version": "dev-update/composerv2-compatibility",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-marketplace",
+            "version": "dev-update/composerv2-compatibility",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "melisplatform/melis-composerdeploy": 20,
+        "melisplatform/melis-marketplace": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
