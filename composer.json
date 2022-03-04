@@ -15,8 +15,8 @@
 	"require": {
 		"php": "^7.1.3|^7.2|^7.3",
 		"melisplatform/melis-asset-manager": "^4.0",
-		"melisplatform/melis-composerdeploy": "^4.0",
-		"melisplatform/melis-core": "^4.0",
+		"melisplatform/melis-composerdeploy": "dev-update/change-composer-version as 4.0",
+		"melisplatform/melis-core": "dev-update/change-composer-version as 4.0",
 		"melisplatform/melis-dbdeploy": "^4.0",
 		"melisplatform/melis-installer": "^4.0",
 		"melisplatform/melis-marketplace": "^4.0"
