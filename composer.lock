@@ -3177,16 +3177,16 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "4c50144bf2b5c54014d848c22ce2f53c7fd466c0"
+                "reference": "de774a0d4097e4861e0b8e1a5e19261ca920dfb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/4c50144bf2b5c54014d848c22ce2f53c7fd466c0",
-                "reference": "4c50144bf2b5c54014d848c22ce2f53c7fd466c0",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/de774a0d4097e4861e0b8e1a5e19261ca920dfb4",
+                "reference": "de774a0d4097e4861e0b8e1a5e19261ca920dfb4",
                 "shasum": ""
             },
             "require": {
@@ -3231,7 +3231,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2022-02-16T05:39:55+00:00"
+            "time": "2022-03-08T11:10:28+00:00"
         },
         {
             "name": "paragonie/random_compat",
