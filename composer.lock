@@ -323,16 +323,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.2.9",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "a951f614bd64dcd26137bc9b7b2637ddcfc57649"
+                "reference": "5d8e574bb0e69188786b8ef77d43341222a41a71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/a951f614bd64dcd26137bc9b7b2637ddcfc57649",
-                "reference": "a951f614bd64dcd26137bc9b7b2637ddcfc57649",
+                "url": "https://api.github.com/repos/composer/semver/zipball/5d8e574bb0e69188786b8ef77d43341222a41a71",
+                "reference": "5d8e574bb0e69188786b8ef77d43341222a41a71",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.2.9"
+                "source": "https://github.com/composer/semver/tree/3.3.1"
             },
             "funding": [
                 {
@@ -400,7 +400,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-04T13:58:43+00:00"
+            "time": "2022-03-16T11:22:07+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -3120,16 +3120,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v4.1.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "0199751292e94528d04cd169f37f1aad3f985c33"
+                "reference": "0de9d7f5e8b225df1f7904820f56522e46fe5973"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/0199751292e94528d04cd169f37f1aad3f985c33",
-                "reference": "0199751292e94528d04cd169f37f1aad3f985c33",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/0de9d7f5e8b225df1f7904820f56522e46fe5973",
+                "reference": "0de9d7f5e8b225df1f7904820f56522e46fe5973",
                 "shasum": ""
             },
             "require": {
@@ -3173,20 +3173,20 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2020-12-14T03:38:31+00:00"
+            "time": "2022-03-25T11:05:55+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v4.1.1",
+            "version": "v4.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "de774a0d4097e4861e0b8e1a5e19261ca920dfb4"
+                "reference": "b206372abf7bbeecace9ba882aeb21d670bd544b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/de774a0d4097e4861e0b8e1a5e19261ca920dfb4",
-                "reference": "de774a0d4097e4861e0b8e1a5e19261ca920dfb4",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/b206372abf7bbeecace9ba882aeb21d670bd544b",
+                "reference": "b206372abf7bbeecace9ba882aeb21d670bd544b",
                 "shasum": ""
             },
             "require": {
@@ -3231,7 +3231,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2022-03-08T11:10:28+00:00"
+            "time": "2022-03-28T03:33:55+00:00"
         },
         {
             "name": "paragonie/random_compat",
