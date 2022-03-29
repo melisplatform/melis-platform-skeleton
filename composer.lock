@@ -2995,12 +2995,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "9fffe48184833f596b68e1a957fb26967a47b98f"
+                "reference": "5cce1e0bbbbf627ba991ace92d786e81245f7541"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/9fffe48184833f596b68e1a957fb26967a47b98f",
-                "reference": "9fffe48184833f596b68e1a957fb26967a47b98f",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/5cce1e0bbbbf627ba991ace92d786e81245f7541",
+                "reference": "5cce1e0bbbbf627ba991ace92d786e81245f7541",
                 "shasum": ""
             },
             "require": {
@@ -3022,7 +3022,7 @@
                 "laminas/laminas-inputfilter": "^2.10|^2.13",
                 "laminas/laminas-mail": "^2.11",
                 "laminas/laminas-mime": "^2.7",
-                "laminas/laminas-mvc": "^3.1.1|^3.2.0",
+                "laminas/laminas-mvc": "^3.1.1|^3.3.0",
                 "laminas/laminas-mvc-i18n": "^1.1",
                 "laminas/laminas-servicemanager": "3.5.*|3.10.0",
                 "laminas/laminas-session": "^2.9",
@@ -3070,7 +3070,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2022-03-29T10:22:24+00:00"
+            "time": "2022-03-29T11:12:42+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
