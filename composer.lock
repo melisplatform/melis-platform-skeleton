@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd8ab0c45895c4bb96b0d263d5773c17",
+    "content-hash": "2d2c2b0c1d40f109486f910b13e8b927",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4367,20 +4367,20 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v1.1.8",
+            "version": "v1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "ffc7f5692092df31515df2a5ecf3b7302b3ddacf"
+                "reference": "b776d18b303a39f56c63747bcb977ad4b27aca26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/ffc7f5692092df31515df2a5ecf3b7302b3ddacf",
-                "reference": "ffc7f5692092df31515df2a5ecf3b7302b3ddacf",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/b776d18b303a39f56c63747bcb977ad4b27aca26",
+                "reference": "b776d18b303a39f56c63747bcb977ad4b27aca26",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "psr/container": "^1.0"
             },
             "suggest": {
@@ -4390,6 +4390,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.1-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -4422,9 +4426,23 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v1.1.8"
+                "source": "https://github.com/symfony/service-contracts/tree/v1.1.9"
             },
-            "time": "2019-10-14T12:27:06+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-06T13:19:58+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -4624,13 +4642,57 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "melisplatform/melis-asset-manager",
+            "version": "dev-update/php-8-upgrade",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-composerdeploy",
+            "version": "dev-update/php-8-upgrade",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-core",
+            "version": "dev-update/php-8-upgrade",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-dbdeploy",
+            "version": "dev-update/php-8-upgrade",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-installer",
+            "version": "dev-update/php-8-upgrade",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-marketplace",
+            "version": "dev-update/php-8-upgrade",
+            "alias": "4.0",
+            "alias_normalized": "4.0.0.0"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "melisplatform/melis-asset-manager": 20,
+        "melisplatform/melis-composerdeploy": 20,
+        "melisplatform/melis-core": 20,
+        "melisplatform/melis-dbdeploy": 20,
+        "melisplatform/melis-installer": 20,
+        "melisplatform/melis-marketplace": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.3|^7.2|^7.3"
+        "php": "^7.1.3|^7.2|^7.3|^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
