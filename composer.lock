@@ -2889,21 +2889,21 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v4.1.0",
+            "version": "dev-update/php-8-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "05e59297e59e9aa8148cd2eafd76eace9f55815b"
+                "reference": "23ea0e57e8cfd2f306918f8ad0f2cf96448c3608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/05e59297e59e9aa8148cd2eafd76eace9f55815b",
-                "reference": "05e59297e59e9aa8148cd2eafd76eace9f55815b",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/23ea0e57e8cfd2f306918f8ad0f2cf96448c3608",
+                "reference": "23ea0e57e8cfd2f306918f8ad0f2cf96448c3608",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "^4.0",
-                "php": "^7.1.3|^7.2|^7.3"
+                "melisplatform/melis-core": "*",
+                "php": "^7.1.3|^7.2|^7.3|^8.0"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -2941,25 +2941,25 @@
                 "issues": "https://github.com/melisplatform/melis-asset-manager/issues",
                 "source": "https://github.com/melisplatform/melis-asset-manager"
             },
-            "time": "2020-11-23T03:36:31+00:00"
+            "time": "2022-03-29T03:49:37+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v4.1.1",
+            "version": "dev-update/php-8-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "fe35bcdffd3a74089d7b1e13d96d3ecd32e7172b"
+                "reference": "e209136683fc466e1a85a15d7a3f4c863a4c6337"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/fe35bcdffd3a74089d7b1e13d96d3ecd32e7172b",
-                "reference": "fe35bcdffd3a74089d7b1e13d96d3ecd32e7172b",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/e209136683fc466e1a85a15d7a3f4c863a4c6337",
+                "reference": "e209136683fc466e1a85a15d7a3f4c863a4c6337",
                 "shasum": ""
             },
             "require": {
                 "composer/composer": "2.2.7",
-                "php": "^7.1.3|^7.2|^7.3"
+                "php": "^7.1.3|^7.2|^7.3|^8.0"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -2987,20 +2987,20 @@
                 "issues": "https://github.com/melisplatform/melis-composerdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-composerdeploy"
             },
-            "time": "2022-03-04T11:03:09+00:00"
+            "time": "2022-03-29T03:58:27+00:00"
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v4.1.3",
+            "version": "dev-update/php-8-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "a128a606f325f641ce60b85cc0c19d7abb153d8d"
+                "reference": "9fffe48184833f596b68e1a957fb26967a47b98f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/a128a606f325f641ce60b85cc0c19d7abb153d8d",
-                "reference": "a128a606f325f641ce60b85cc0c19d7abb153d8d",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/9fffe48184833f596b68e1a957fb26967a47b98f",
+                "reference": "9fffe48184833f596b68e1a957fb26967a47b98f",
                 "shasum": ""
             },
             "require": {
@@ -3016,21 +3016,21 @@
                 "laminas/laminas-developer-tools": "^2.0",
                 "laminas/laminas-development-mode": "^3.2",
                 "laminas/laminas-file": "^2.8",
-                "laminas/laminas-form": "^2.14",
-                "laminas/laminas-hydrator": "^2.4",
+                "laminas/laminas-form": "^2.14|^3.1.0",
+                "laminas/laminas-hydrator": "^2.4|^4.3.0",
                 "laminas/laminas-i18n": "^2.10",
-                "laminas/laminas-inputfilter": "^2.10",
+                "laminas/laminas-inputfilter": "^2.10|^2.13",
                 "laminas/laminas-mail": "^2.11",
                 "laminas/laminas-mime": "^2.7",
-                "laminas/laminas-mvc": "^3.1.1",
+                "laminas/laminas-mvc": "^3.1.1|^3.2.0",
                 "laminas/laminas-mvc-i18n": "^1.1",
-                "laminas/laminas-servicemanager": "3.5.*",
+                "laminas/laminas-servicemanager": "3.5.*|3.10.0",
                 "laminas/laminas-session": "^2.9",
                 "melisplatform/melis-asset-manager": "^4.0",
                 "melisplatform/melis-composerdeploy": "^4.0",
                 "melisplatform/melis-dbdeploy": "^4.0",
-                "php": "^7.1.3|^7.2|^7.3",
-                "symfony/service-contracts": "1.1.8"
+                "php": "^7.1.3|^7.2|^7.3|^8.0",
+                "symfony/service-contracts": "1.1.9"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3070,25 +3070,25 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2022-03-08T03:39:58+00:00"
+            "time": "2022-03-29T10:22:24+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v4.1.0",
+            "version": "dev-update/php-8-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "f4cc3f63853c09f2775e3e8572450c89ce6ce8cf"
+                "reference": "f5972be7ab6cf0c938e30956fb76d80a5ef3de61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/f4cc3f63853c09f2775e3e8572450c89ce6ce8cf",
-                "reference": "f4cc3f63853c09f2775e3e8572450c89ce6ce8cf",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/f5972be7ab6cf0c938e30956fb76d80a5ef3de61",
+                "reference": "f5972be7ab6cf0c938e30956fb76d80a5ef3de61",
                 "shasum": ""
             },
             "require": {
                 "phing/phing": "~2.16.3",
-                "php": "^7.1.3|^7.2|^7.3"
+                "php": "^7.1.3|^7.2|^7.3|^8.0"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3116,25 +3116,25 @@
                 "issues": "https://github.com/melisplatform/melis-dbdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-dbdeploy"
             },
-            "time": "2020-08-17T07:39:38+00:00"
+            "time": "2022-03-29T04:00:53+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v4.1.1",
+            "version": "dev-update/php-8-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "0de9d7f5e8b225df1f7904820f56522e46fe5973"
+                "reference": "1d3c6f27dbcc3a472a534acb771c9445ad841870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/0de9d7f5e8b225df1f7904820f56522e46fe5973",
-                "reference": "0de9d7f5e8b225df1f7904820f56522e46fe5973",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/1d3c6f27dbcc3a472a534acb771c9445ad841870",
+                "reference": "1d3c6f27dbcc3a472a534acb771c9445ad841870",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "^4.0",
-                "php": "^7.1.3|^7.2|^7.3"
+                "melisplatform/melis-core": "*",
+                "php": "^7.1.3|^7.2|^7.3|^8.0"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3173,25 +3173,25 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2022-03-25T11:05:55+00:00"
+            "time": "2022-03-29T04:13:21+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v4.1.2",
+            "version": "dev-update/php-8-upgrade",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "b206372abf7bbeecace9ba882aeb21d670bd544b"
+                "reference": "b60b52073a1ae37b6137991b73b5e1edc5e650ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/b206372abf7bbeecace9ba882aeb21d670bd544b",
-                "reference": "b206372abf7bbeecace9ba882aeb21d670bd544b",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/b60b52073a1ae37b6137991b73b5e1edc5e650ab",
+                "reference": "b60b52073a1ae37b6137991b73b5e1edc5e650ab",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "^4.0",
-                "php": "^7.1.3|^7.2|^7.3"
+                "melisplatform/melis-core": "*",
+                "php": "^7.1.3|^7.2|^7.3|^8.0"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3231,7 +3231,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2022-03-28T03:33:55+00:00"
+            "time": "2022-03-29T04:16:19+00:00"
         },
         {
             "name": "paragonie/random_compat",
