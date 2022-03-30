@@ -906,20 +906,20 @@
         },
         {
             "name": "laminas/laminas-db",
-            "version": "2.13.4",
+            "version": "2.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-db.git",
-                "reference": "cdabb4bfa669c2c0edb0cb4e014c15b41afd3fb1"
+                "reference": "7daba1149e69dc828ce083844cde1101c0418afa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-db/zipball/cdabb4bfa669c2c0edb0cb4e014c15b41afd3fb1",
-                "reference": "cdabb4bfa669c2c0edb0cb4e014c15b41afd3fb1",
+                "url": "https://api.github.com/repos/laminas/laminas-db/zipball/7daba1149e69dc828ce083844cde1101c0418afa",
+                "reference": "7daba1149e69dc828ce083844cde1101c0418afa",
                 "shasum": ""
             },
             "require": {
-                "laminas/laminas-stdlib": "^3.6",
+                "laminas/laminas-stdlib": "^3.7.1",
                 "php": "^7.3 || ~8.0.0 || ~8.1.0"
             },
             "conflict": {
@@ -927,10 +927,10 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.2.1",
-                "laminas/laminas-eventmanager": "^3.4",
+                "laminas/laminas-eventmanager": "^3.4.0",
                 "laminas/laminas-hydrator": "^3.2 || ^4.3",
-                "laminas/laminas-servicemanager": "^3.7",
-                "phpunit/phpunit": "^9.5.5"
+                "laminas/laminas-servicemanager": "^3.7.0",
+                "phpunit/phpunit": "^9.5.19"
             },
             "suggest": {
                 "laminas/laminas-eventmanager": "Laminas\\EventManager component",
@@ -973,7 +973,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-21T18:59:44+00:00"
+            "time": "2022-03-30T07:37:42+00:00"
         },
         {
             "name": "laminas/laminas-developer-tools",
@@ -3068,12 +3068,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "b8a1bac5a59df489f105ffa8cd7a7e851440a718"
+                "reference": "b29156ce2c71b2baf9cfd1cca04a7e2f8ce1fcf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/b8a1bac5a59df489f105ffa8cd7a7e851440a718",
-                "reference": "b8a1bac5a59df489f105ffa8cd7a7e851440a718",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/b29156ce2c71b2baf9cfd1cca04a7e2f8ce1fcf9",
+                "reference": "b29156ce2c71b2baf9cfd1cca04a7e2f8ce1fcf9",
                 "shasum": ""
             },
             "require": {
@@ -3143,7 +3143,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2022-03-30T05:21:37+00:00"
+            "time": "2022-03-30T09:18:54+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -3151,16 +3151,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "c2b9678bdf8754854f7b83b7c642a72b910addd8"
+                "reference": "957921e344fd578b094224db8b5f0330a883f4f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/c2b9678bdf8754854f7b83b7c642a72b910addd8",
-                "reference": "c2b9678bdf8754854f7b83b7c642a72b910addd8",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/957921e344fd578b094224db8b5f0330a883f4f3",
+                "reference": "957921e344fd578b094224db8b5f0330a883f4f3",
                 "shasum": ""
             },
             "require": {
-                "phing/phing": "~2.16.3",
+                "phing/phing": "2.17.2",
                 "php": "^7.3|^8.0"
             },
             "type": "melisplatform-module",
@@ -3189,7 +3189,7 @@
                 "issues": "https://github.com/melisplatform/melis-dbdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-dbdeploy"
             },
-            "time": "2022-03-30T05:27:49+00:00"
+            "time": "2022-03-30T11:03:19+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
@@ -3197,12 +3197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "1666b4ba51a045f00f9d834f96ed1aa1b844e054"
+                "reference": "4c49c5a6985db0fd5014e29c69c5eead447194d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/1666b4ba51a045f00f9d834f96ed1aa1b844e054",
-                "reference": "1666b4ba51a045f00f9d834f96ed1aa1b844e054",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/4c49c5a6985db0fd5014e29c69c5eead447194d6",
+                "reference": "4c49c5a6985db0fd5014e29c69c5eead447194d6",
                 "shasum": ""
             },
             "require": {
@@ -3246,7 +3246,7 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2022-03-30T05:28:27+00:00"
+            "time": "2022-03-30T09:34:57+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -3364,16 +3364,16 @@
         },
         {
             "name": "phing/phing",
-            "version": "2.16.4",
+            "version": "2.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "30831b22fc6bab57003f1893842668c44b7f65ae"
+                "reference": "8b8cee3eb12c24502fc4c227ac5889746248a140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/30831b22fc6bab57003f1893842668c44b7f65ae",
-                "reference": "30831b22fc6bab57003f1893842668c44b7f65ae",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/8b8cee3eb12c24502fc4c227ac5889746248a140",
+                "reference": "8b8cee3eb12c24502fc4c227ac5889746248a140",
                 "shasum": ""
             },
             "require": {
@@ -3456,7 +3456,7 @@
             "support": {
                 "irc": "irc://irc.freenode.net/phing",
                 "issues": "https://www.phing.info/trac/report",
-                "source": "https://github.com/phingofficial/phing/tree/2.16.4"
+                "source": "https://github.com/phingofficial/phing/tree/2.17.2"
             },
             "funding": [
                 {
@@ -3472,7 +3472,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-01-29T14:00:54+00:00"
+            "time": "2022-02-09T09:50:58+00:00"
         },
         {
             "name": "psr/container",
