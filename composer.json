@@ -31,6 +31,10 @@
 		"development-status": "laminas-development-mode status"
 	},
 	"config": {
-		"platform-check": false
+		"platform-check": false,
+		"allow-plugins": {
+			"symfony/flex": false,
+			"symfony/runtime": true
+		}
 	}
 }
