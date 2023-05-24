@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b86b46f7fda8307ac60d07c0b0e478d5",
+    "content-hash": "914d5ff9e6847325994aa90cdee94e97",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -3072,16 +3072,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "dev-develop",
+            "version": "v5.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "d2d95c7c3bd4cb0e6d8b8f217e09a92841707142"
+                "reference": "986051b0ebaaaf5c0479570558bd8ea0a79fff6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/d2d95c7c3bd4cb0e6d8b8f217e09a92841707142",
-                "reference": "d2d95c7c3bd4cb0e6d8b8f217e09a92841707142",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/986051b0ebaaaf5c0479570558bd8ea0a79fff6e",
+                "reference": "986051b0ebaaaf5c0479570558bd8ea0a79fff6e",
                 "shasum": ""
             },
             "require": {
@@ -3152,7 +3152,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2023-05-24T10:40:21+00:00"
+            "time": "2023-05-24T10:55:53+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -5152,18 +5152,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "package": "melisplatform/melis-core",
-            "version": "dev-develop",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "melisplatform/melis-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
