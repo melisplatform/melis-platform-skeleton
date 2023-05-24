@@ -16,7 +16,7 @@
 		"php": "^7.3|^8.0",
 		"melisplatform/melis-asset-manager": "^5.0",
 		"melisplatform/melis-composerdeploy": "^5.0",
-		"melisplatform/melis-core": "^5.0",
+		"melisplatform/melis-core": "dev-develop as 5.0",
 		"melisplatform/melis-dbdeploy": "^5.0",
 		"melisplatform/melis-installer": "^5.0",
 		"melisplatform/melis-marketplace": "^5.0"
