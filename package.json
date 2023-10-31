@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "laravel-mix": "^5.0.4"
+    "laravel-mix": "^6.0.49"
   },
   "scripts": {
     "dev": "npm run development",
