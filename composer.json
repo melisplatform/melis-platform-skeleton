@@ -16,7 +16,7 @@
 		"php": "^8.1|^8.3",
 		"melisplatform/melis-asset-manager": "*",
 		"melisplatform/melis-composerdeploy": "*",
-		"melisplatform/melis-core": "*",
+		"melisplatform/melis-core": "dev-update/php83",
 		"melisplatform/melis-dbdeploy": "*",
 		"melisplatform/melis-installer": "dev-update/php83",
 		"melisplatform/melis-marketplace": "*"
