@@ -1694,16 +1694,16 @@
         },
         {
             "name": "laminas/laminas-i18n",
-            "version": "2.24.1",
+            "version": "2.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-i18n.git",
-                "reference": "dafb5eddfb43575befd29aeb195c55f92834fd32"
+                "reference": "4b6df8501bfe96648dadaf8de681cbbaea906e04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/dafb5eddfb43575befd29aeb195c55f92834fd32",
-                "reference": "dafb5eddfb43575befd29aeb195c55f92834fd32",
+                "url": "https://api.github.com/repos/laminas/laminas-i18n/zipball/4b6df8501bfe96648dadaf8de681cbbaea906e04",
+                "reference": "4b6df8501bfe96648dadaf8de681cbbaea906e04",
                 "shasum": ""
             },
             "require": {
@@ -1775,7 +1775,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-11-08T08:56:45+00:00"
+            "time": "2023-12-22T15:51:21+00:00"
         },
         {
             "name": "laminas/laminas-inputfilter",
@@ -3053,12 +3053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "993674cfa1c959175f5a108442731050c7020846"
+                "reference": "6ebd51b8eeaac17b6d80757251391f1e5704dc84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/993674cfa1c959175f5a108442731050c7020846",
-                "reference": "993674cfa1c959175f5a108442731050c7020846",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/6ebd51b8eeaac17b6d80757251391f1e5704dc84",
+                "reference": "6ebd51b8eeaac17b6d80757251391f1e5704dc84",
                 "shasum": ""
             },
             "require": {
@@ -3129,7 +3129,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2023-12-19T08:54:24+00:00"
+            "time": "2023-12-28T10:03:59+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
