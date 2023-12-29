@@ -3053,12 +3053,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "6ebd51b8eeaac17b6d80757251391f1e5704dc84"
+                "reference": "e6d1779aa083ba2838b6db43be679888ce4493f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/6ebd51b8eeaac17b6d80757251391f1e5704dc84",
-                "reference": "6ebd51b8eeaac17b6d80757251391f1e5704dc84",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/e6d1779aa083ba2838b6db43be679888ce4493f3",
+                "reference": "e6d1779aa083ba2838b6db43be679888ce4493f3",
                 "shasum": ""
             },
             "require": {
@@ -3129,7 +3129,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2023-12-28T10:03:59+00:00"
+            "time": "2023-12-29T09:11:39+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
