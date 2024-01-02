@@ -19,6 +19,8 @@
 		"melisplatform/melis-core": "dev-update/php83 as 5.0",
 		"melisplatform/melis-dbdeploy": "dev-update/php83 as 5.0",
 		"melisplatform/melis-installer": "dev-update/php83 as 5.0",
+		"melisplatform/melis-engine": "dev-update/php83 as 5.0",
+		"melisplatform/melis-front": "dev-update/php83 as 5.0",
 		"melisplatform/melis-marketplace": "*"
 	},
 	"scripts": {
