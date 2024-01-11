@@ -3240,12 +3240,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "84a84411dbf1064e6dea4f2b6bbe1c9d73f5ec2e"
+                "reference": "ff125f57124897cd571f37d67ee72f2eb1407099"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/84a84411dbf1064e6dea4f2b6bbe1c9d73f5ec2e",
-                "reference": "84a84411dbf1064e6dea4f2b6bbe1c9d73f5ec2e",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/ff125f57124897cd571f37d67ee72f2eb1407099",
+                "reference": "ff125f57124897cd571f37d67ee72f2eb1407099",
                 "shasum": ""
             },
             "require": {
@@ -3290,7 +3290,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2024-01-10T08:09:31+00:00"
+            "time": "2024-01-11T07:42:24+00:00"
         },
         {
             "name": "nikic/php-parser",
