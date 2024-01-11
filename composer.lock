@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03f7d0eabf25d651662a69a71859b72e",
+    "content-hash": "d6cb1e4f1d8658023974b75524b27cc9",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -3236,21 +3236,21 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v5.0.0",
+            "version": "dev-update/php83",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "c1a31c2a83c3eee370a9e2ef2614e7a0572abca7"
+                "reference": "84a84411dbf1064e6dea4f2b6bbe1c9d73f5ec2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/c1a31c2a83c3eee370a9e2ef2614e7a0572abca7",
-                "reference": "c1a31c2a83c3eee370a9e2ef2614e7a0572abca7",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/84a84411dbf1064e6dea4f2b6bbe1c9d73f5ec2e",
+                "reference": "84a84411dbf1064e6dea4f2b6bbe1c9d73f5ec2e",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "^5.0",
-                "php": "^7.3|^8.0"
+                "melisplatform/melis-core": "*",
+                "php": "^8.1|^8.3"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3290,7 +3290,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2022-06-20T09:42:44+00:00"
+            "time": "2024-01-10T08:09:31+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -5343,6 +5343,12 @@
             "version": "dev-update/php83",
             "alias": "5.0",
             "alias_normalized": "5.0.0.0"
+        },
+        {
+            "package": "melisplatform/melis-marketplace",
+            "version": "dev-update/php83",
+            "alias": "5.0",
+            "alias_normalized": "5.0.0.0"
         }
     ],
     "minimum-stability": "stable",
@@ -5351,7 +5357,8 @@
         "melisplatform/melis-composerdeploy": 20,
         "melisplatform/melis-core": 20,
         "melisplatform/melis-dbdeploy": 20,
-        "melisplatform/melis-installer": 20
+        "melisplatform/melis-installer": 20,
+        "melisplatform/melis-marketplace": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
