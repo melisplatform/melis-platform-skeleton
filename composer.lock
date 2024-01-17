@@ -3183,12 +3183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "7a3f33a4fbe6f00a8ed6be8d35072f502e93bb2a"
+                "reference": "b9a31a9d2f3e46eda2f36e1f56c936139d09e1d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/7a3f33a4fbe6f00a8ed6be8d35072f502e93bb2a",
-                "reference": "7a3f33a4fbe6f00a8ed6be8d35072f502e93bb2a",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/b9a31a9d2f3e46eda2f36e1f56c936139d09e1d8",
+                "reference": "b9a31a9d2f3e46eda2f36e1f56c936139d09e1d8",
                 "shasum": ""
             },
             "require": {
@@ -3232,7 +3232,7 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2024-01-02T12:20:22+00:00"
+            "time": "2024-01-16T09:35:06+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
