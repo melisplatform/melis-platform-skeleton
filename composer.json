@@ -14,12 +14,12 @@
 	],
 	"require": {
 		"php": "^8.1|^8.3",
-		"melisplatform/melis-asset-manager": "dev-update/php83 as 5.0",
-		"melisplatform/melis-composerdeploy": "dev-update/php83 as 5.0",
-		"melisplatform/melis-core": "dev-update/php83 as 5.0",
-		"melisplatform/melis-dbdeploy": "dev-update/php83 as 5.0",
-		"melisplatform/melis-installer": "dev-update/php83 as 5.0",
-		"melisplatform/melis-marketplace": "dev-update/php83 as 5.0"
+		"melisplatform/melis-asset-manager": "^5.1",
+		"melisplatform/melis-composerdeploy": "^5.1",
+		"melisplatform/melis-core": "^5.1",
+		"melisplatform/melis-dbdeploy": "^5.1",
+		"melisplatform/melis-installer": "^5.1",
+		"melisplatform/melis-marketplace": "^5.1"
 	},
 	"scripts": {
 		"post-update-cmd": [

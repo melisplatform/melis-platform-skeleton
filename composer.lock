@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6cb1e4f1d8658023974b75524b27cc9",
+    "content-hash": "ffee2d0dc60fc1ba6d4cdb4aeaea715a",
     "packages": [
         {
             "name": "brick/varexporter",
@@ -2946,20 +2946,20 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "dev-update/php83",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "fb481818f7a5902ef68881b226bb5a6d2b5b6a60"
+                "reference": "d54013150a4e47e9fff09077cad2c78b72a552e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/fb481818f7a5902ef68881b226bb5a6d2b5b6a60",
-                "reference": "fb481818f7a5902ef68881b226bb5a6d2b5b6a60",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/d54013150a4e47e9fff09077cad2c78b72a552e9",
+                "reference": "d54013150a4e47e9fff09077cad2c78b72a552e9",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "*",
+                "melisplatform/melis-core": "^5.1",
                 "php": "^8.1|^8.3"
             },
             "type": "melisplatform-module",
@@ -2998,11 +2998,11 @@
                 "issues": "https://github.com/melisplatform/melis-asset-manager/issues",
                 "source": "https://github.com/melisplatform/melis-asset-manager"
             },
-            "time": "2024-01-10T10:12:49+00:00"
+            "time": "2024-02-13T03:50:13+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "dev-update/php83",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
@@ -3048,16 +3048,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "dev-update/php83",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "bd24635becc17591a83b87c8bd450772329ba034"
+                "reference": "13f92787525687c571518b4f6edbf273c23e8618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/bd24635becc17591a83b87c8bd450772329ba034",
-                "reference": "bd24635becc17591a83b87c8bd450772329ba034",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/13f92787525687c571518b4f6edbf273c23e8618",
+                "reference": "13f92787525687c571518b4f6edbf273c23e8618",
                 "shasum": ""
             },
             "require": {
@@ -3083,9 +3083,9 @@
                 "laminas/laminas-mvc-i18n": "^1.8",
                 "laminas/laminas-servicemanager": "3.22.1",
                 "laminas/laminas-session": "^2.17",
-                "melisplatform/melis-asset-manager": "*",
-                "melisplatform/melis-composerdeploy": "*",
-                "melisplatform/melis-dbdeploy": "*",
+                "melisplatform/melis-asset-manager": "^5.1",
+                "melisplatform/melis-composerdeploy": "^5.1",
+                "melisplatform/melis-dbdeploy": "^5.1",
                 "php": "^8.1|^8.3",
                 "psr/container": "1.1.1",
                 "symfony/service-contracts": "2.5.0",
@@ -3129,11 +3129,11 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2024-02-07T09:49:19+00:00"
+            "time": "2024-02-13T04:00:20+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "dev-update/php83",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
@@ -3179,20 +3179,20 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "dev-update/php83",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "5a2d41f7a8003560024048812af5e1197be41353"
+                "reference": "bf0a9eee6ef364d83f9798624c9f29d358097d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/5a2d41f7a8003560024048812af5e1197be41353",
-                "reference": "5a2d41f7a8003560024048812af5e1197be41353",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/bf0a9eee6ef364d83f9798624c9f29d358097d89",
+                "reference": "bf0a9eee6ef364d83f9798624c9f29d358097d89",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "*",
+                "melisplatform/melis-core": "^5.1",
                 "php": "^8.1|^8.3"
             },
             "type": "melisplatform-module",
@@ -3232,24 +3232,24 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2024-01-29T04:00:31+00:00"
+            "time": "2024-02-13T03:54:01+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "dev-update/php83",
+            "version": "v5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "ff125f57124897cd571f37d67ee72f2eb1407099"
+                "reference": "43143e175ed638b5d2690bcfa98bd39bd3ccb8ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/ff125f57124897cd571f37d67ee72f2eb1407099",
-                "reference": "ff125f57124897cd571f37d67ee72f2eb1407099",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/43143e175ed638b5d2690bcfa98bd39bd3ccb8ec",
+                "reference": "43143e175ed638b5d2690bcfa98bd39bd3ccb8ec",
                 "shasum": ""
             },
             "require": {
-                "melisplatform/melis-core": "*",
+                "melisplatform/melis-core": "^5.1",
                 "php": "^8.1|^8.3"
             },
             "type": "melisplatform-module",
@@ -3290,7 +3290,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2024-01-11T07:42:24+00:00"
+            "time": "2024-02-13T03:57:33+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3685,16 +3685,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "76d449a358ece77d6f1d6331c68453e657172202"
+                "reference": "9bb7db07b5d66d90f6ebf542f09fc67d800e5259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/76d449a358ece77d6f1d6331c68453e657172202",
-                "reference": "76d449a358ece77d6f1d6331c68453e657172202",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9bb7db07b5d66d90f6ebf542f09fc67d800e5259",
+                "reference": "9bb7db07b5d66d90f6ebf542f09fc67d800e5259",
                 "shasum": ""
             },
             "require": {
@@ -3733,7 +3733,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/jsonlint/issues",
-                "source": "https://github.com/Seldaek/jsonlint/tree/1.10.1"
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.10.2"
             },
             "funding": [
                 {
@@ -3745,7 +3745,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-12-18T13:03:25+00:00"
+            "time": "2024-02-07T12:57:50+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -5285,53 +5285,9 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [
-        {
-            "package": "melisplatform/melis-asset-manager",
-            "version": "dev-update/php83",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        },
-        {
-            "package": "melisplatform/melis-composerdeploy",
-            "version": "dev-update/php83",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        },
-        {
-            "package": "melisplatform/melis-core",
-            "version": "dev-update/php83",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        },
-        {
-            "package": "melisplatform/melis-dbdeploy",
-            "version": "dev-update/php83",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        },
-        {
-            "package": "melisplatform/melis-installer",
-            "version": "dev-update/php83",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        },
-        {
-            "package": "melisplatform/melis-marketplace",
-            "version": "dev-update/php83",
-            "alias": "5.0",
-            "alias_normalized": "5.0.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "melisplatform/melis-asset-manager": 20,
-        "melisplatform/melis-composerdeploy": 20,
-        "melisplatform/melis-core": 20,
-        "melisplatform/melis-dbdeploy": 20,
-        "melisplatform/melis-installer": 20,
-        "melisplatform/melis-marketplace": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
