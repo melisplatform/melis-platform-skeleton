@@ -3179,16 +3179,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v5.1.0",
+            "version": "v5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "bf0a9eee6ef364d83f9798624c9f29d358097d89"
+                "reference": "a7ff7732eaab24c09fcf6b49ef8baaed3840848a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/bf0a9eee6ef364d83f9798624c9f29d358097d89",
-                "reference": "bf0a9eee6ef364d83f9798624c9f29d358097d89",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/a7ff7732eaab24c09fcf6b49ef8baaed3840848a",
+                "reference": "a7ff7732eaab24c09fcf6b49ef8baaed3840848a",
                 "shasum": ""
             },
             "require": {
@@ -3232,20 +3232,20 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2024-02-13T03:54:01+00:00"
+            "time": "2024-02-13T04:31:00+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v5.1.0",
+            "version": "v5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "43143e175ed638b5d2690bcfa98bd39bd3ccb8ec"
+                "reference": "dbe9a9731af36c3fe57aff02e4e976b952bdf222"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/43143e175ed638b5d2690bcfa98bd39bd3ccb8ec",
-                "reference": "43143e175ed638b5d2690bcfa98bd39bd3ccb8ec",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/dbe9a9731af36c3fe57aff02e4e976b952bdf222",
+                "reference": "dbe9a9731af36c3fe57aff02e4e976b952bdf222",
                 "shasum": ""
             },
             "require": {
@@ -3290,7 +3290,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2024-02-13T03:57:33+00:00"
+            "time": "2024-02-13T04:35:17+00:00"
         },
         {
             "name": "nikic/php-parser",
