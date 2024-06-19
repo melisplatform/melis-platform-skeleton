@@ -7,7 +7,7 @@ RewriteEngine On
     FileETag None
 	Header unset ETag
 	Header unset Pragma
-	Header unset Cache-Control
+#	Header unset Cache-Control
 	Header unset Last-Modified
 
 	# default cache 1 year = 31556926 s
