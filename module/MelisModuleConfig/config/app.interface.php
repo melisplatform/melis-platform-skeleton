@@ -66,8 +66,21 @@ return array(
                         'error_reporting' => E_ALL & ~E_USER_DEPRECATED,
                         'display_errors' => 1,
                     ),
-
+                    //use to check whether we use the bundle-all assets or load bundle for each module
+                    'build_bundle' => false,
                 ),
+                'uat' => [
+                    //use to check whether we use the bundle-all assets or load bundle for each module
+                    //'build_bundle' => true,
+                ],
+                'preprod' => [
+                    //use to check whether we use the bundle-all assets or load bundle for each module
+                    //'build_bundle' => true,
+                ],
+                'prod' => [
+                    //use to check whether we use the bundle-all assets or load bundle for each module
+                    //'build_bundle' => true,
+                ],
 
             ),
         ),
