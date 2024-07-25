@@ -3366,16 +3366,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "409c21851e26797061e20e91b767ef7576aaed04"
+                "reference": "d7fa4eceecf36797f9a7f60941b2f61c8079e3d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/409c21851e26797061e20e91b767ef7576aaed04",
-                "reference": "409c21851e26797061e20e91b767ef7576aaed04",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/d7fa4eceecf36797f9a7f60941b2f61c8079e3d2",
+                "reference": "d7fa4eceecf36797f9a7f60941b2f61c8079e3d2",
                 "shasum": ""
             },
             "require": {
@@ -3418,7 +3418,7 @@
                 "issues": "https://github.com/melisplatform/melis-asset-manager/issues",
                 "source": "https://github.com/melisplatform/melis-asset-manager"
             },
-            "time": "2024-06-06T04:11:12+00:00"
+            "time": "2024-07-04T09:02:04+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
