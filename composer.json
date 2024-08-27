@@ -37,5 +37,10 @@
 			"symfony/flex": false,
 			"symfony/runtime": true
 		}
-	}
+	},
+	"autoload" : {
+        "psr-4" : {
+			"MelisModuleConfig\\": "module/MelisModuleConfig/src/"
+        }
+    }
 }

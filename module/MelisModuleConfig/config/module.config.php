@@ -20,4 +20,12 @@ return [
     ],
     'view_manager' => [
     ],
+    'laminas-cli' => [
+        'commands' => [
+            'delete-melis-cache' => \MelisModuleConfig\Console\DeleteMelisCacheCommand::class,
+            'make:controller' => \MelisModuleConfig\Console\MakeControllerCommand::class,
+            'make:service' => \MelisModuleConfig\Console\MakeServiceCommand::class,
+            'make:model' => \MelisModuleConfig\Console\MakeModelCommand::class,
+        ],
+    ],
 ];
