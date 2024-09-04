@@ -3603,16 +3603,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v5.2.1",
+            "version": "v5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "7327698029102b28cc4b9682c6b5db3169bdc1ad"
+                "reference": "c2da7105f64a22b19274eb7b065aa62055c797a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/7327698029102b28cc4b9682c6b5db3169bdc1ad",
-                "reference": "7327698029102b28cc4b9682c6b5db3169bdc1ad",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/c2da7105f64a22b19274eb7b065aa62055c797a1",
+                "reference": "c2da7105f64a22b19274eb7b065aa62055c797a1",
                 "shasum": ""
             },
             "require": {
@@ -3656,7 +3656,7 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2024-07-25T10:46:08+00:00"
+            "time": "2024-09-04T03:35:09+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -5872,5 +5872,5 @@
         "php": "^8.1|^8.3"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.6.0"
 }
