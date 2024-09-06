@@ -1,0 +1,20 @@
+<?php
+
+use Symfony\Component\Console\Application;
+use MelisModuleConfig\Console\DeleteMelisCacheCommand;
+use MelisModuleConfig\Console\MakeControllerCommand;
+use MelisModuleConfig\Console\MakeServiceCommand;
+use MelisModuleConfig\Console\MakeModelCommand;
+
+require  './vendor/autoload.php';
+$cacheDir =  './cache';
+$modulesDir =  './module';
+
+$application = new Application();
+
+$application->add(new DeleteMelisCacheCommand($cacheDir));
+$application->add(new MakeServiceCommand($modulesDir));
+$application->add(new MakeModelCommand($modulesDir));
+$application->add(new MakeControllerCommand($modulesDir));
+
+$application->run();

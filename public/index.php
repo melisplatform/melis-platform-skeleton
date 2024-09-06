@@ -41,5 +41,18 @@ if (file_exists(__DIR__ . '/../config/development.config.php')) {
     $appConfig = ArrayUtils::merge($appConfig, require __DIR__ . '/../config/development.config.php');
 }
 
+// Inject melis configuration without virtualhost variables
+if(file_exists(__DIR__ . '/../.env')){
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+    $dotenv->load();
+    if(is_array($_ENV)){
+        foreach ($_ENV as $key => $value) {
+            if($key == 'MELIS_MODULE' || $key == 'MELIS_PLATFORM'){
+                putenv("$key=$value");
+            }
+        }
+    }
+}
+
 // Run the application!
 Application::init($appConfig)->run();
