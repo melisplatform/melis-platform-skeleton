@@ -1,7 +1,7 @@
 .vagrant/
 vendor/
 #config/development.config.php
-data/cache/*
+data/*
 !data/cache/.gitkeep
 phpunit.xml
 .phpunit.result.cache
