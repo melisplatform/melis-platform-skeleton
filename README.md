@@ -19,7 +19,7 @@ This is the package you need to use to start a setup of Melis Platform.
 2. Install the skeleton with submodules using one of these methods:
    ```bash
    # Method 1: Using create-project with --keep-vcs flag to preserve Git information
-   composer create-project melisplatform/melis-platform-skeleton . --keep-vcs
+   composer create-project melisplatform/melis-platform-skeleton .
 
    # After create-project, initialize and update submodules
    git submodule init
