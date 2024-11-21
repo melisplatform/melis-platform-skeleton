@@ -1,0 +1,3 @@
+[submodule "melis-docker"]
+	path = melis-docker
+	url = https://github.com/melisplatform/melis-docker
