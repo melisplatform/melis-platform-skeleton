@@ -1,0 +1,117 @@
+/*
+    Melis Platform - Dark theme overrides
+    Scope all rules under html[data-theme="dark"] to avoid affecting light mode.
+
+    Edit this file in d:/Local files/work/platform-scheme-evolution
+*/
+/* root variables for dark theme — only edit these */
+html[data-theme="dark"] {
+    --dark-bg: #121212;
+    --dark-border: #2a2a2a;
+    --dark-text: #ffffff;
+}
+
+/* generic */
+html[data-theme="dark"] body {
+    background-color: var(--dark-bg) !important;
+    color: var(--dark-text) !important;
+}
+
+/* top navigation and tabs */
+html[data-theme="dark"] .navbar.main,
+html[data-theme="dark"] .navbar.main.navbar-primary,
+html[data-theme="dark"] .navbar.main .nav.navbar-right,
+html[data-theme="dark"] .tabsbar .nav-tabs > li.active > a {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+}
+
+html[data-theme="dark"] .navbar.main .nav > li > a,
+html[data-theme="dark"] .tabsbar .tab-element,
+html[data-theme="dark"] .tabsbar .tab-element i:before,
+html[data-theme="dark"] .navbar.main .nav > li > a .fa:before {
+    color: var(--dark-text) !important;
+}
+
+/* widgets, panels, cards */
+html[data-theme="dark"] .widget,
+html[data-theme="dark"] .widget > .widget-head,
+html[data-theme="dark"] .widget > .widget-body,
+html[data-theme="dark"] .panel,
+html[data-theme="dark"] .panel-default,
+html[data-theme="dark"] .panel-heading,
+html[data-theme="dark"] .panel-body,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .card-header,
+html[data-theme="dark"] .card-body {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text) !important;
+}
+
+/* dropdowns & menus */
+html[data-theme="dark"] .dropdown-menu {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+}
+html[data-theme="dark"] .dropdown-menu > li > a,
+html[data-theme="dark"] .dropdown-menu > li > a .fa:before {
+    color: var(--dark-text) !important;
+}
+
+/* tables */
+html[data-theme="dark"] table,
+html[data-theme="dark"] .table,
+html[data-theme="dark"] .table > thead > tr > th,
+html[data-theme="dark"] .table > tbody > tr > td {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text) !important;
+}
+
+html[data-theme="dark"] .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: var(--dark-bg) !important;
+}
+
+/* forms */
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] .form-control,
+html[data-theme="dark"] .input-group-text,
+html[data-theme="dark"] .btn-default {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text) !important;
+}
+
+/* modals */
+html[data-theme="dark"] .modal-content,
+html[data-theme="dark"] .modal-header,
+html[data-theme="dark"] .modal-body,
+html[data-theme="dark"] .modal-footer {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text) !important;
+}
+
+/* sidebar, lists */
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .well,
+html[data-theme="dark"] .list-group-item {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-border) !important;
+    color: var(--dark-text) !important;
+}
+
+/* links */
+html[data-theme="dark"] a,
+html[data-theme="dark"] a:hover {
+    color: var(--dark-text) !important;
+}
+
+/* primary accents still white/text friendly */
+html[data-theme="dark"] .melis-primary-bg,
+html[data-theme="dark"] .melis-primary-txt {
+    color: var(--dark-text) !important;
+}
