@@ -9,12 +9,22 @@ html[data-theme="dark"] {
     --dark-bg: #121212;
     --dark-border: #2a2a2a;
     --dark-text: #ffffff;
+
+    --dark-active-bg: #ffffff;
+    --dark-active-bg-text: #121212;
 }
 
 /* generic */
 html[data-theme="dark"] body {
     background-color: var(--dark-bg) !important;
     color: var(--dark-text) !important;
+}
+
+/* color theme switch / dropdown-menu */
+html[data-theme="dark"] .dropdown-menu .dropdown-item.active, 
+html[data-theme="dark"] .dropdown-menu .dropdown-item:active {
+    background-color: var(--dark-active-bg) !important;
+    color: var(--dark-active-bg-text) !important;
 }
 
 /* top navigation and tabs */
