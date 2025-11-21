@@ -7,11 +7,18 @@
 /* root variables for dark theme — only edit these */
 html[data-theme="dark"] {
     --dark-bg: #121212;
-    --dark-border: #2a2a2a;
-    --dark-text: #ffffff;
+    --dark-border: #ffffff;
+    --dark-text: #ffffff;    
 
     --dark-active-bg: #ffffff;
     --dark-active-bg-text: #121212;
+
+    --dark-menu-hover: #373737;
+    --dark-menu-border: #121212;
+
+    --dark-menu-submenu-bg: #1d1d1d;
+    --dark-menu-submenu-text: #5a5a5a;
+    --dark-menu-submenu-hover-text: #ffffff;
 }
 
 /* generic */
@@ -125,3 +132,134 @@ html[data-theme="dark"] .melis-primary-bg,
 html[data-theme="dark"] .melis-primary-txt {
     color: var(--dark-text) !important;
 }
+
+/* customed - top nav */
+html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item .nav-link .fa,
+html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item .nav-link span {
+    color: var(--dark-text) !important;
+}
+/* active tab */
+html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item .nav-link:hover span,
+html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item.active .nav-link .fa:before,
+html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item.active .nav-link .fa,
+html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item.active .nav-link span {
+    color: var(--dark-active-bg-text) !important;
+}
+html[data-theme="dark"] .navbar.main .nav.navbar-right, 
+html[data-theme="dark"] body .navbar.main.navbar-primary, 
+html[data-theme="dark"] .navbar.main.navbar-primary .dropdown-toggle {
+    background-color: var(--dark-bg) !important;
+}
+html[data-theme="dark"] .navbar.main .nav.navbar-right li,
+html[data-theme="dark"] #id_meliscore_header_flash_messenger,
+html[data-theme="dark"] .navbar.main .nav.navbar-right li:first-child,
+html[data-theme="dark"] .navbar.main .nav.navbar-right > li,
+html[data-theme="dark"] .navbar #melis-id-nav-bar-tabs > li {
+    border-color: var(--dark-border) !important;
+}
+/* hover */
+html[data-theme="dark"] .navbar.main .nav.navbar-right .dropdown-menu li.active a:hover,
+html[data-theme="dark"] .dropdown-menu li.active a:hover, 
+html[data-theme="dark"] .dropdown-menu li.active:hover a:hover,
+html[data-theme="dark"] #module-status:hover,
+html[data-theme="dark"] #id_meliscore_header_logout a:hover .fa:before,
+html[data-theme="dark"] .navbar.main .nav.navbar-right .dropdown-menu li a:hover,
+html[data-theme="dark"] .navbar.main.navbar-primary .nav > li.has-sub > .nav-group-dropdown li .dropdown-toggle:hover, 
+html[data-theme="dark"] .navbar.main.navbar-primary .nav > li.has-sub.active-parent.on > .nav-group-dropdown li .dropdown-toggle:hover, 
+html[data-theme="dark"] .navbar.main.navbar-primary .nav > li.active > .dropdown-toggle,
+html[data-theme="dark"] #flash-messenger:hover,
+html[data-theme="dark"] #clearNotifBtn:hover,
+html[data-theme="dark"] #melis-messenger-messages:hover,
+html[data-theme="dark"] .navbar.main.navbar-primary .nav > li .dropdown-toggle:hover .fa:before,
+html[data-theme="dark"] .navbar.main.navbar-primary .nav > li .dropdown-toggle:hover, 
+html[data-theme="dark"] .navbar.main.navbar-primary .nav > li .dropdown-toggle:hover .fa {
+    background-color: var(--dark-active-bg) !important;
+    color: var(--dark-active-bg-text) !important;
+    transition: none;
+}
+html[data-theme="dark"] #flash-messenger:hover a {
+    color: var(--dark-active-bg-text) !important;
+}
+/* end hover */
+html[data-theme="dark"] #module-status,
+html[data-theme="dark"] #flash-messenger,
+html[data-theme="dark"] #melis-messenger-messages {
+    color: var(--dark-text) !important;
+}
+/* default */
+html[data-theme="dark"] .navbar.main .nav.navbar-right .dropdown-menu li a {
+    color: var(--dark-text) !important;
+}
+html[data-theme="dark"] .navbar.main .nav.navbar-right .dropdown-menu li.active a, 
+html[data-theme="dark"] .dropdown-menu li.active a, 
+html[data-theme="dark"] .dropdown-menu li.active:hover a {
+    background-color: var(--dark-bg) !important;
+}
+html[data-theme="dark"] #clearNotifBtn {
+    background-color: var(--dark-bg) !important;
+    color: var(--dark-text) !important;
+}
+/* end default */
+/* end top nav */
+
+/* side nav */
+html[data-theme="dark"] .navbar.main.navbar-primary .left-menu .navbar-brand {
+    background-color: var(--dark-bg) !important;
+    border-color: var(--dark-bg) !important;
+}
+html[data-theme="dark"] .navbar.main.navbar-primary .appbrand {
+    color: var(--dark-text) !important;
+}
+html[data-theme="dark"] .navbar.main.navbar-primary .toggle-button i {
+    color: var(--dark-text) !important;
+    opacity: 0.7;
+}
+html[data-theme="dark"] .navbar.main.navbar-primary .toggle-button:hover i {
+    opacity: 1;
+}
+html[data-theme="dark"] #id_meliscore_leftmenu_identity,
+html[data-theme="dark"] #id_meliscore_leftmenu {
+    background-color: var(--dark-bg) !important;
+}
+html[data-theme="dark"] .sidebar .user-profile .media-body p,
+html[data-theme="dark"] .sidebar.sidebar-inverse .user-profile a {
+    color: var(--dark-text) !important;
+}
+html[data-theme="dark"] #id_meliscore_leftmenu_identity ul li a:hover,
+html[data-theme="dark"] #id_meliscore_leftmenu_identity ul li.active a#btnUserInfoEdit {
+    background-color: var(--dark-active-bg) !important;
+    color: var(--dark-active-bg-text) !important;
+}
+html[data-theme="dark"] #id_meliscore_leftmenu_identity ul li.active a#btnUserInfoEdit .fa {
+    color: var(--dark-active-bg-text) !important;
+}
+html[data-theme="dark"] #id_meliscore_leftmenu_identity ul li.active a#btnUserInfoEdit:hover .fa {
+    color: var(--dark-text) !important;
+}
+html[data-theme="dark"] #id_meliscore_leftmenu_identity ul li.active a#btnUserInfoEdit:hover,
+html[data-theme="dark"] #id_meliscore_leftmenu_identity ul li a {
+    background-color: var(--dark-bg) !important;
+    color: var(--dark-text) !important;
+}
+/* menus */
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li {
+    border-color: var(--dark-menu-border) !important;
+}
+html[data-theme="dark"] .sidebar>.sidebarMenuWrapper {
+    background-color: var(--dark-bg) !important;
+}
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li a:hover {
+    background-color: var(--dark-menu-hover) !important;
+}
+/* side nav - menu - submenu */
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active-menu.hasSubmenu ul li a {
+    background-color: var(--dark-menu-submenu-bg) !important;
+}
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active-menu.hasSubmenu ul li a,
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active.hasSubmenu .hasSubmenu.active ul li a {
+    color: var(--dark-menu-submenu-text) !important;
+}
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active.hasSubmenu .hasSubmenu.active ul li a:hover {
+    color: var(--dark-menu-submenu-hover-text) !important;
+}
+/* end side nav */
