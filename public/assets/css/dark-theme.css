@@ -262,4 +262,14 @@ html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.activ
 html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active.hasSubmenu .hasSubmenu.active ul li a:hover {
     color: var(--dark-menu-submenu-hover-text) !important;
 }
+html[data-theme="dark"] .sidebar.sidebar-inverse > .sidebarMenuWrapper > ul li.active-menu.hasSubmenu ul li.active-menu > a[data-bs-toggle="collapse"], 
+html[data-theme="dark"] .sidebar.sidebar-inverse > .sidebarMenuWrapper > ul > li.active-menu.hasSubmenu > ul > li > a:hover > i,
+html[data-theme="dark"] .sidebar.sidebar-inverse > .sidebarMenuWrapper > ul > li.active.hasSubmenu > a[data-bs-toggle="collapse"] {
+    /* background-color: var(--dark-menu-submenu-bg) !important; */
+    background-color: var(--dark-active-bg) !important;
+    color: var(--dark-active-bg-text) !important;
+}
+html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active.hasSubmenu .hasSubmenu.active>a i.fa {
+    color: var(--dark-active-bg-text) !important;
+}
 /* end side nav */
