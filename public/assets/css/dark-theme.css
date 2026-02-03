@@ -683,7 +683,7 @@ html[data-theme="dark"] .platform-theme-options-toggle .overlay-loader {
     color: var(--text) !important;
 }
 html[data-theme="dark"] .platform-theme-options-block .accordion-item .active-header .accordion-button::after {
-    --bs-accordion-btn-icon-color: var(--text) !important;
+    filter: brightness(0) invert(1);
 }
 html[data-theme="dark"] .platform-theme-options-tools-info .btn-group .btn-check:checked+.btn .bi::before {
     color: var(--active-text) !important;
