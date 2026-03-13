@@ -1021,6 +1021,10 @@ html[data-theme="dark"] #melis-id-nav-bar-tabs.tabsbar .active-parent:hover > .n
     background-color: transparent !important;
     color: var(--active-text) !important;
 }
+html[data-theme="dark"] #melis-id-nav-bar-tabs.tabsbar .nav-item.has-sub:hover > .nav-group-dropdown .nav-item .nav-link i::before,
+html[data-theme="dark"] #melis-id-nav-bar-tabs.tabsbar .nav-item.has-sub:hover > .nav-group-dropdown .nav-item .nav-link span {
+    color: var(--active-text) !important;
+}
 
 /* sites */
 html[data-theme="dark"] #melis-modals-container .widget-head .status {
@@ -1157,6 +1161,43 @@ html[data-theme="dark"] .menu-icon .badge-success {
     background-color: var(--active-bg) !important;
     color: var(--active-text) !important;
 }
+html[data-theme="dark"] .form-step-accordion .widget > .widget-head {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+    border-left: 1px solid var(--border-grey) !important;
+}
+html[data-theme="dark"] .form-step-accordion .widget .accordionTitle a {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .form-step-accordion .widget .accordionTitle a:hover {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] #melis-modals-container .widget-head ul.nav-tabs li.nav-item.active a.nav-link.active i::before {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] #melis-modals-container .tt-suggestion.tt-cursor {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .form-step-accordion .stepFieldTable > tbody > tr > td:nth-child(2), 
+html[data-theme="dark"] .form-step-accordion .stepFieldTable > tbody > tr > td:first-child {
+    line-height: 18px !important;
+}
+html[data-theme="dark"] .checkbox-custom i.checked {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] #tableToolFormToolAdmin .btnInstructForm {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] #tableToolFormToolAdmin .btnInstructForm:hover {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+    border-color: var(--border-black) !important;
+}
 
 /* platform theme options */
 html[data-theme="dark"] .platform-theme-options .platform-theme-options-toggle {
@@ -1167,4 +1208,11 @@ html[data-theme="dark"] .platform-theme-options-toggle .overlay-loader {
 }
 html[data-theme="dark"] .platform-theme-options-tools-info .theme-option.active {
     border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .global-options .theme-option[data-theme=default]:hover,
+html[data-theme="dark"] #ui-style .options-grid .theme-option:hover,
+html[data-theme="dark"] .global-options .theme-option:hover {
+    background-color: var(--bg) !important;
+    border-color: var(--border-black) !important;
+    color: var(--text) !important;
 }
