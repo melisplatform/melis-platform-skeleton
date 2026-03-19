@@ -719,7 +719,10 @@ html[data-theme="dark"] .widget.widget-tabs>.widget-head ul li.active a.f-awesom
 html[data-theme="dark"] .widget.widget-tabs-double>.widget-head ul li a.f-awesome .fa-sitemap, 
 html[data-theme="dark"] .widget.widget-tabs-double>.widget-head ul li.active a.f-awesome .fa-sitemap,
 html[data-theme="dark"] .widget.widget-tabs-double .widget-head ul li.active a:hover i:before,
-html[data-theme="dark"] .widget.widget-tabs-double .widget-head ul li a.glyphicons, 
+html[data-theme="dark"] .widget.widget-tabs-double .widget-head ul li a.glyphicons,
+html[data-theme="dark"] #melis-modals-container .widget-head ul li.active a i::before,
+html[data-theme="dark"] #melis-modals-container .widget-head ul li.active a.active i::before, /* form tool */
+html[data-theme="dark"] .widget.widget-tabs-double .widget-head ul li.active a.glyphicons.active i:before, /* form tool */
 html[data-theme="dark"] .widget.widget-tabs-double .widget-head ul li a.glyphicons i:before {
     color: var(--active-text) !important;
 }
@@ -1199,6 +1202,35 @@ html[data-theme="dark"] #tableToolFormToolAdmin .btnInstructForm:hover {
     border-color: var(--border-black) !important;
 }
 
+/* form tool */
+html[data-theme="dark"] .answers-tab-container .pagecomment .media-body .text-danger:hover {
+    background-color: transparent !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .answers-tab-container .event_type:after,
+html[data-theme="dark"] .answers-tab-container .event_type:before {
+    background-color: var(--bg) !important;
+}
+html[data-theme="dark"] .answers-tab-container .field_comment, 
+html[data-theme="dark"] .answers-tab-container .comment {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .step-fields-div .form-group label {
+    color: var(--active-text) !important;
+}
+
+/* newsletter tool */
+html[data-theme="dark"] #id_melis_newsletter_tool_content .tab-hdr-btns .btn-success {
+    background-color: var(--active-bg) !important;
+    border-color: var(--border-black) !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] #id_melis_newsletter_tool_content .tab-hdr-btns .btn-success:hover {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+    border-color: var(--border-black) !important;
+}
+
 /* platform theme options */
 html[data-theme="dark"] .platform-theme-options .platform-theme-options-toggle {
     background-color: var(--bg) !important;
@@ -1215,4 +1247,7 @@ html[data-theme="dark"] .global-options .theme-option:hover {
     background-color: var(--bg) !important;
     border-color: var(--border-black) !important;
     color: var(--text) !important;
+}
+html[data-theme="dark"] .platform-theme-options-title .close-tools:hover {
+    color: var(--active-text) !important;
 }
