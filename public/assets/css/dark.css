@@ -1220,15 +1220,35 @@ html[data-theme="dark"] .step-fields-div .form-group label {
 }
 
 /* newsletter tool */
+html[data-theme="dark"] #id_melis_newsletter_tool_content .btn-success,
 html[data-theme="dark"] #id_melis_newsletter_tool_content .tab-hdr-btns .btn-success {
     background-color: var(--active-bg) !important;
     border-color: var(--border-black) !important;
     color: var(--active-text) !important;
 }
+html[data-theme="dark"] #id_melis_newsletter_tool_content .btn-success:hover,
 html[data-theme="dark"] #id_melis_newsletter_tool_content .tab-hdr-btns .btn-success:hover {
     background-color: var(--bg) !important;
     color: var(--text) !important;
     border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] #newsletter_transport_config_form_form .form-group label {
+    color: var(--active-text) !important;
+}
+
+/* tabs */
+html[data-theme="dark"] .page-content-container .widget.widget-tabs-double-2>.widget-head ul li, 
+html[data-theme="dark"] .page-content-container .widget.widget-tabs-double-2>.widget-head ul li a,
+html[data-theme="dark"] .widget.widget-tabs-double-2>.widget-head ul li {
+    height: 70px !important;
+}
+
+/* link checkers */
+html[data-theme="dark"] #melis-modals-container .widget-head ul li.active a i::before {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .filter-bar label {
+    color: var(--active-text) !important;
 }
 
 /* platform theme options */
