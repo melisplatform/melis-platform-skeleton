@@ -779,14 +779,17 @@ html[data-theme="dark"] .platform-theme-options-detail .platform-theme-options-b
 html[data-theme="dark"] .platform-theme-options .platform-theme-options-toggle {
     background-color: var(--bg) !important;
 }
-html[data-theme="dark"] .platform-theme-options-block .accordion-item .active-header .accordion-button,
+html[data-theme="dark"] .platform-theme-options-block .accordion-item .active-header .accordion-button {
+    color: var(--cms-text) !important;
+    font-weight: normal !important;
+}
 html[data-theme="dark"] .platform-theme-options-detail .platform-theme-options-block .active-header,
 html[data-theme="dark"] .platform-theme-options-toggle .overlay-loader {
     color: var(--text) !important;
 }
-html[data-theme="dark"] .platform-theme-options-block .accordion-item .active-header .accordion-button::after {
+/* html[data-theme="dark"] .platform-theme-options-block .accordion-item .active-header .accordion-button::after {
     filter: brightness(0) invert(1);
-}
+} */
 html[data-theme="dark"] .platform-theme-options-tools-info,
 html[data-theme="dark"] .platform-theme-options-tools-info .btn-group .btn-check:checked+.btn .bi::before {
     color: var(--active-text) !important;
@@ -798,6 +801,10 @@ html[data-theme="dark"] .platform-theme-options-tools-info .btn-group .btn-defau
 html[data-theme="dark"] .platform-theme-options-tools-info .theme-switcher .form-check-input:checked {
     background-color: var(--bg) !important;
     border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .platform-theme-options-block .accordion-item h3.accordion-header .accordion-button.collapsed,
+html[data-theme="dark"] .platform-theme-options-block .accordion-item h3.accordion-header .accordion-button {
+    font-weight: normal !important;
 }
 
 /* other config */
