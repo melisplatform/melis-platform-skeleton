@@ -46,11 +46,11 @@ html[data-theme="dark"] .back .widget {
 }
 
 /* text-only elements, icons, links and labels */
-html[data-theme="dark"] a,
+/* html[data-theme="dark"] a,
 html[data-theme="dark"] .navbar a,
 html[data-theme="dark"] .sidebar a {
     color: var(--text) !important;
-}
+} */
 
 /* active state, hover state */
 html[data-theme="dark"] .active,
@@ -230,9 +230,9 @@ html[data-theme="dark"] .list-group-item {
 html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item .nav-link .fa,
 html[data-theme="dark"] #melis-navtabs-container-inner .nav-tabs .nav-item .nav-link span,
 html[data-theme="dark"] .melis-primary-bg,
-html[data-theme="dark"] .melis-primary-txt,
-html[data-theme="dark"] a,
-html[data-theme="dark"] a:hover {
+html[data-theme="dark"] .melis-primary-txt
+/* html[data-theme="dark"] a,
+html[data-theme="dark"] a:hover */ {
     color: var(--text) !important;
 }
 
@@ -1277,4 +1277,55 @@ html[data-theme="dark"] .global-options .theme-option:hover {
 }
 html[data-theme="dark"] .platform-theme-options-title .close-tools:hover {
     color: var(--active-text) !important;
+}
+
+/* page edition iframe */
+html[data-theme="dark"] .melis-plugin-tools-box .melis-plugin-tools-box-title,
+html[data-theme="dark"] .melis-plugin-tools-box,
+html[data-theme="dark"] .melis-plugin-indicator {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .m-options-handle,
+html[data-theme="dark"] .melis-module-title {
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .melis-cms-dnd-box,
+html[data-theme="dark"] .melis-cms-ps-box .melis-cms-filter-btn,
+html[data-theme="dark"] .m-plugin-sub-tools {
+    background-color: var(--bg) !important;
+}
+html[data-theme="dark"] .melis-ui-outlined:hover {
+    outline: 1px solid var(--border-black) !important;
+    box-shadow: 0 0 0 1px var(--border-black) !important;
+    -webkit-box-shadow: 0 0 0 1px var(--border-black) !important;
+}
+html[data-theme="dark"] .melis-dragdropzone-container > .dnd-layout-wrapper {
+    outline: 1px dashed var(--border-black) !important;
+}
+html[data-theme="dark"] .melis-cms-category-plugins-box,
+html[data-theme="dark"] .melis-cms-dnd-box,
+html[data-theme="dark"] .melis-cms-dnd-title,
+html[data-theme="dark"] .melis-editable:hover,
+html[data-theme="dark"] .melis-dragdropzone:hover,
+html[data-theme="dark"] .melis-dragdropzone {
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .melis-cms-dnd-box #melisPluginBtn {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .melis-cms-dnd-title {
+    background-color: var(--bg) !important;
+    text-transform: uppercase !important;
+}
+html[data-theme="dark"] .melis-cms-filter-btn-sub-category.active,
+html[data-theme="dark"] .melis-cms-ps-box .melis-cms-filter-btn.active,
+html[data-theme="dark"] .melis-cms-category-btn.active {
+    background-color: var(--bg) !important;
+    border-color: var(--border-black) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .melis-cms-plugin-snippets:hover {
+    background-color: var(--bg) !important;
 }
