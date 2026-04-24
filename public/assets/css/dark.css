@@ -18,7 +18,7 @@ html[data-theme="dark"] {
     --submenu-text: #5a5a5a;
     --submenu-hover-text: #ffffff;
 
-    --highlight-grey: #dddddd;
+    --highlight-grey: #ededed;
 
     --border-white: #ffffff;
     --border-black: #121212;
@@ -157,6 +157,11 @@ html[data-theme="dark"] .container-level-a .widget.widget-tabs.widget-tabs-respo
 html[data-theme="dark"] :not(.back).widget > .widget-head ul li.active {
     border-bottom: 1px solid var(--border-white) !important;
 }
+html[data-theme="dark"] .user-account-picture,
+html[data-theme="dark"] .container-level-a .widget.widget-tabs.widget-tabs-responsive > .widget-head ul li.active > a, 
+html[data-theme="dark"] .container-level-a .widget.widget-tabs.widget-tabs-responsive > .widget-head ul li:last-child.active > a {
+    border-color: var(--border-black) !important;
+}
 html[data-theme="dark"] .back .widget > .widget-head {
     border-top-width: 0 !important;
     border-left-width: 0 !important;
@@ -197,6 +202,8 @@ html[data-theme="dark"] form .form-group input[type="text"],
 html[data-theme="dark"] input:not(.theme-radio),
 html[data-theme="dark"] select,
 html[data-theme="dark"] textarea,
+html[data-theme="dark"] .filter-bar .dt-date-range-picker,
+html[data-theme="dark"] .MultiCheckBox,
 html[data-theme="dark"] .form-control,
 html[data-theme="dark"] .input-group-text,
 html[data-theme="dark"] .btn-default,
@@ -205,6 +212,26 @@ html[data-theme="dark"] .select2-container--default .select2-selection--single {
     border-color: var(--border-grey) !important;
     color: var(--active-text) !important;
     border-radius: 0 !important;
+}
+
+html[data-theme="dark"] .select2-container--default .select2-selection--single,
+html[data-theme="dark"] .form-control,
+html[data-theme="dark"] .MultiCheckBox,
+html[data-theme="dark"] .filter-bar .dt-date-range-picker,
+html[data-theme="dark"] form .form-group input[type="text"],
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select,
+html[data-theme="dark"] input[type="email"],
+html[data-theme="dark"] input[type="password"],
+html[data-theme="dark"] input[type="number"],
+html[data-theme="dark"] input[type="tel"],
+html[data-theme="dark"] input[type="url"],
+html[data-theme="dark"] input[type="search"],
+html[data-theme="dark"] input[type="date"],
+html[data-theme="dark"] input[type="time"],
+html[data-theme="dark"] input[type="datetime-local"],
+html[data-theme="dark"] input[type="text"] {
+    background-color: var(--highlight-grey) !important;
 }
 
 /* modals */
@@ -309,6 +336,33 @@ html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.act
     background-color: var(--active-bg) !important;
     color: var(--active-text) !important;
 }
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on > .nav-group-dropdown > .nav-item:first-child {
+    border-left: 0 !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on > .nav-group-dropdown > .nav-item > .dropdown-toggle:hover {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on > .nav-group-dropdown > .nav-item > .dropdown-toggle:hover > .fa {
+    background-color: var(--bg) !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on > .nav-group-dropdown > .nav-item > .dropdown-toggle:hover > span {
+    color: var(--text) !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on > .nav-group-dropdown > .nav-item > .dropdown-toggle:hover > .fa:before {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on:hover > .nav-group-dropdown > .nav-item > .dropdown-toggle:hover > span {
+    color: var(--text) !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on:hover > .nav-group-dropdown > .nav-item:hover > .close-tab {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] #melis-navtabs-container-inner .tabsbar > li.has-sub.active-parent.on:hover > .nav-group-dropdown > .nav-item:hover > .close-tab:before {
+    color: var(--text) !important;
+}
 html[data-theme="dark"] .navbar.main.navbar-primary .tabsbar .nav-item.has-sub:hover > .nav-group-dropdown .dropdown-toggle {
     background-color: var(--active-bg) !important;
     color: var(--active-text) !important;
@@ -399,6 +453,7 @@ html[data-theme="dark"] .sidebar>.sidebarMenuWrapper {
 }
 html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li a:hover {
     background-color: var(--menu-hover) !important;
+    color: var(--text) !important;
 }
 html[data-theme="dark"] #flash-messenger .media-body a:hover {
     background-color: transparent !important;
@@ -1256,6 +1311,26 @@ html[data-theme="dark"] #melis-modals-container .widget-head ul li.active a i::b
 }
 html[data-theme="dark"] .filter-bar label {
     color: var(--active-text) !important;
+}
+
+/* mcq */
+html[data-theme="dark"] .widget.widget-tabs.widget-tabs-responsive>.widget-head ul li.active > a.active, 
+html[data-theme="dark"] .widget.widget-tabs-double-2 > .widget-head ul li:last-child.active a {
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .sidebar-header.search, 
+html[data-theme="dark"] .sidebar-header.basket {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .link-danger {
+    text-decoration-color: var(--active-text) !important;
+}
+
+/* prospect */
+html[data-theme="dark"] #id_MelisCmsProspects_tool_prospects .widget.widget-inverse>.widget-head {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
 }
 
 /* platform theme options */
