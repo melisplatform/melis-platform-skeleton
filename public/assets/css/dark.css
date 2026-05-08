@@ -492,7 +492,8 @@ html[dark-theme="dark"] #treeview-container {
 html[data-theme="dark"] .unpublish {
     background-color: var(--active-bg) !important;
 }
-html[data-theme="dark"] .sidebar.sidebar-inverse>.sidebarMenuWrapper>ul li.active-menu.hasSubmenu .hasSubmenu a:hover {
+html[data-theme="dark"] .sidebar.sidebar-inverse > .sidebarMenuWrapper > ul li.active-menu.hasSubmenu > ul li a:hover,
+html[data-theme="dark"] .sidebar.sidebar-inverse > .sidebarMenuWrapper > ul li.active-menu.hasSubmenu .hasSubmenu a:hover {
     background-color: var(--menu-hover) !important;
     color: var(--submenu-hover-text) !important;
 }
@@ -1352,6 +1353,101 @@ html[data-theme="dark"] .delete-event:hover,
 html[data-theme="dark"] .update-event:hover {
     background-color: var(--active-bg) !important;
     color: var(--active-text) !important;
+}
+
+/* catalogs */
+html[data-theme="dark"] .jstree-default .jstree-hovered,
+html[data-theme="dark"] .jstree-default .jstree-clicked {
+    background-color: var(--highlight-grey) !important;
+}
+html[data-theme="dark"] .prices-accordion [data-toggle="collapse-widget"] .collapse-toggle:before,
+html[data-theme="dark"] .product-text-tab-form-content .widget .widget-head .heading,
+html[data-theme="dark"] .ecom-coutries-checkbox .fa-check-square-o {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .product-text-tab-form-content .widget .widget-head {
+    border-left: 1px solid var(--border-black) !important;
+}
+
+/* melis-ai - chat */
+html[data-theme="dark"] #module-chat .error-box {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .meliscms-search-box .sbox-icon {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .meliscms-search-box .sbox-icon:hover {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .meliscms-search-box .sbox-icon:hover i:before,
+html[data-theme="dark"] .meliscms-search-box .sbox-icon:hover i {
+    color: var(--active-text) !important;
+}
+
+/* melis-commerce */
+html[data-theme="dark"] .order-list-page .widget .widget-head,
+html[data-theme="dark"] #id_meliscommerce_clients_list_widgets .widget .widget-head,
+html[data-theme="dark"] .prices-accordion .widget .widget-head {
+    border-left: 1px solid var(--border-black) !important;
+}
+html[data-theme="dark"] .prices-accordion .widget .widget-head .heading {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] #melis-modals-container .duplication-table {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .order-list-page .widget .widget-head,
+html[data-theme="dark"] #id_meliscommerce_clients_list_widgets .widget .widget-head {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .product-text-tab-container .label-success {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .order-list-table-filter-date .orderDateFiler {
+    background-color: var(--highlight-grey) !important;
+    border-color: var(--border-grey) !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] input:not(.theme-radio).form-check-input {
+    border-radius: 50% !important;
+}
+html[data-theme="dark"] input:not(.theme-radio).form-check-input:checked {
+    background-color: var(--bg) !important;
+    border-color: var(--border-black) !important;   
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .order-checkout-steps .nav-item {
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .order-checkout-steps .nav-item.active {
+    background-color: var(--bg) !important;
+}
+html[data-theme="dark"] .order-checkout-steps .nav-item.active .nav-link i:before,
+html[data-theme="dark"] .order-checkout-steps .nav-item.active .nav-link {
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .order-checkout-steps .nav-item .nav-link {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .order-checkout-steps .nav-item .nav-link i:before {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .label-info,
+html[data-theme="dark"] .client-contact-address .card-header {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .client-contact-address .card-title .accordion-toggle {
+    color: var(--text) !important;
 }
 
 /* platform theme options */
