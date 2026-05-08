@@ -1299,6 +1299,9 @@ html[data-theme="dark"] #id_melis_newsletter_tool_content .tab-hdr-btns .btn-suc
 html[data-theme="dark"] #newsletter_transport_config_form_form .form-group label {
     color: var(--active-text) !important;
 }
+html[data-theme="dark"] .font-awesome-checkbox:checked+label:before {
+    color: var(--active-text) !important;
+}
 
 /* tabs */
 html[data-theme="dark"] .page-content-container .widget.widget-tabs-double-2>.widget-head ul li, 
@@ -1333,6 +1336,22 @@ html[data-theme="dark"] .link-danger {
 html[data-theme="dark"] #id_MelisCmsProspects_tool_prospects .widget.widget-inverse>.widget-head {
     background-color: var(--bg) !important;
     color: var(--text) !important;
+}
+
+/* calendar */
+html[data-theme="dark"] .fc-event-dragging [class*="bg-primary"],
+html[data-theme="dark"] .ui-draggable-dragging .bg-primary,
+html[data-theme="dark"] .fc-event.fc-event-mirror .bg-primary,
+html[data-theme="dark"] .fc-event.fc-dragging .bg-primary,
+html[data-theme="dark"] .fc-event.fc-event-mirror,
+html[data-theme="dark"] .fc-event.fc-dragging {
+    background: var(--bg) !important;
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .delete-event:hover,
+html[data-theme="dark"] .update-event:hover {
+    background-color: var(--active-bg) !important;
+    color: var(--active-text) !important;
 }
 
 /* platform theme options */
