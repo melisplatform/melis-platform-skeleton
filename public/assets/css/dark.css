@@ -1450,6 +1450,67 @@ html[data-theme="dark"] .client-contact-address .card-title .accordion-toggle {
     color: var(--text) !important;
 }
 
+/* products */
+html[data-theme="dark"] .modal-dialog .widget-body .thumbnail {
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .modal-dialog .widget-body .tab-pane.active .commerce-toggle .card-title .accordion-toggle {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .filter-dropdown .dropdown-toggle {
+    border: 1px solid var(--border-black) !important;
+}
+html[data-theme="dark"] .red-box-panel h3 {
+    border-bottom-color: var(--border-black) !important;
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .order-basket-variant-qty-btn {
+    background-color: transparent !important;
+}
+html[data-theme="dark"] #payNowBtn {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+html[data-theme="dark"] #id_meliscommerce_order_checkout_payment_step_content .text-success {
+    color: var(--text) !important;
+}
+html[data-theme="dark"] .dt_orderdatepicker {
+    background-color: var(--highlight-grey) !important;
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] #id_meliscommerce_order_status_form_container .input-group-addon,
+html[data-theme="dark"] .daterangepicker {
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .daterangepicker:after {
+    border-right: 6px solid transparent !important;
+    border-bottom: 6px solid var(--border-black) !important;
+    border-left: 6px solid transparent !important;
+}
+html[data-theme="dark"] .daterangepicker:before {
+    border-right: 7px solid transparent !important;
+    border-left: 7px solid transparent !important;
+    border-bottom: 7px solid var(--border-black) !important;;
+}
+
+/* marketplace */
+html[data-theme="dark"] .melis-store h3 {
+    color: var(--active-text) !important;
+}
+html[data-theme="dark"] .melis-store .product:hover {
+    box-shadow: 0 0 8px var(--bg) !important;
+}
+html[data-theme="dark"] .melis-store .product:after,
+html[data-theme="dark"] .melis-store .product:before {
+    border-color: var(--border-black) !important;
+}
+html[data-theme="dark"] .pagination > li > a:hover {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+}
+
 /* platform theme options */
 html[data-theme="dark"] .platform-theme-options .platform-theme-options-toggle {
     background-color: var(--bg) !important;
