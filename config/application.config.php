@@ -22,6 +22,7 @@ return [
         'module_paths' => [
             './module',
             './module/MelisSites',
+            './module/AIModules',
         ],
 
         // use composer autoloader instead of laminas-loader
