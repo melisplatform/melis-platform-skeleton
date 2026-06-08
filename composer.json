@@ -12,8 +12,14 @@
 		"mvc",
 		"framework"
 	],
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-mail" },
+		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-mime" },
+		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-crypt" },
+		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-file" }
+	],
 	"require": {
-		"php": "^8.1|^8.3",
+		"php": "^8.1|^8.3|^8.4|^8.5",
 		"melisplatform/melis-asset-manager": "^5.3",
 		"melisplatform/melis-composerdeploy": "^5.3.3",
 		"melisplatform/melis-core": "^5.3.31",
