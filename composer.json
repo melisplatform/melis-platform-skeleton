@@ -39,6 +39,9 @@
 		"allow-plugins": {
 			"symfony/flex": false,
 			"symfony/runtime": true
+		},
+		"platform": {
+			"php": "8.3.0"
 		}
 	}
 }
