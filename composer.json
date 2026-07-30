@@ -22,7 +22,7 @@
 		"melisplatform/melis-marketplace": "^5.3",
 		"melisplatform/laminas-mail": "^2.25",
 		"melisplatform/laminas-mime": "^2.12",
-		"melisplatform/laminas-crypt": "^4.0",
+		"melisplatform/laminas-crypt": "^3.13",
 		"melisplatform/laminas-file": "^2.13"
 	},
 	"scripts": {
