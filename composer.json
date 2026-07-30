@@ -11,13 +11,7 @@
 		"laminas",
 		"mvc",
 		"framework"
-	],
-	"repositories": [
-		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-mail" },
-		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-mime" },
-		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-crypt" },
-		{ "type": "vcs", "url": "https://github.com/melisplatform/laminas-file" }
-	],
+	],	
 	"require": {
 		"php": "^8.1|^8.3|^8.4|^8.5",
 		"melisplatform/melis-asset-manager": "^5.3",
@@ -25,7 +19,11 @@
 		"melisplatform/melis-core": "^5.3.31",
 		"melisplatform/melis-dbdeploy": "^5.3",
 		"melisplatform/melis-installer": "^5.3.3",
-		"melisplatform/melis-marketplace": "^5.3"
+		"melisplatform/melis-marketplace": "^5.3",
+		"melisplatform/laminas-mail": "^2.25",
+		"melisplatform/laminas-mime": "^2.12",
+		"melisplatform/laminas-crypt": "^4.0",
+		"melisplatform/laminas-file": "^2.13"
 	},
 	"scripts": {
 		"post-update-cmd": [
