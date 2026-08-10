@@ -3,11 +3,21 @@
 	"description": "Melis Platform Skeleton",
 	"type": "project",
 	"license": "OSL-3.0",
+	"support": {
+		"docs": "https://melisplatform.github.io/docs/"
+	},
+	"authors": [
+		{
+			"name": "Melis Technology",
+			"email": "contact@melistechnology.com",
+			"homepage": "https://www.melisplatform.com/",
+			"role": "Developer"
+		}
+	],
 	"keywords": [
 		"melis",
 		"melisplatform",
 		"platform",
-		"zf2",
 		"laminas",
 		"mvc",
 		"framework"
