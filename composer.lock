@@ -3567,21 +3567,21 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v6.0.0",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "b46c1206f3d4d99a2e23dd29b54f37166c9d41ac"
+                "reference": "216c909a7fb511d9d479a940d1bb55b00a4bf5d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/b46c1206f3d4d99a2e23dd29b54f37166c9d41ac",
-                "reference": "b46c1206f3d4d99a2e23dd29b54f37166c9d41ac",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/216c909a7fb511d9d479a940d1bb55b00a4bf5d8",
+                "reference": "216c909a7fb511d9d479a940d1bb55b00a4bf5d8",
                 "shasum": ""
             },
             "require": {
                 "composer/composer": "^2.9.6",
-                "php": "^8.1|^8.3"
+                "php": "^8.3|^8.5"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3597,19 +3597,28 @@
             "license": [
                 "OSL-3.0"
             ],
+            "authors": [
+                {
+                    "name": "Melis Technology",
+                    "email": "contact@melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
+                    "role": "Developer"
+                }
+            ],
             "description": "Melis Platform Composer deployment module",
             "homepage": "https://github.com/melisplatform/melis-composerdeploy",
             "keywords": [
                 "cms",
+                "laminas",
                 "melis",
-                "module",
-                "zf2"
+                "module"
             ],
             "support": {
+                "docs": "https://melisplatform.github.io/docs/",
                 "issues": "https://github.com/melisplatform/melis-composerdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-composerdeploy"
             },
-            "time": "2026-08-04T04:51:17+00:00"
+            "time": "2026-08-10T08:21:52+00:00"
         },
         {
             "name": "melisplatform/melis-core",
@@ -3705,21 +3714,21 @@
         },
         {
             "name": "melisplatform/melis-dbdeploy",
-            "version": "v6.0.0",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-dbdeploy.git",
-                "reference": "1e9f9600b90473726b2f9ce08f5152183d4db345"
+                "reference": "2777d2177ed98cb9b846b2b75728b20ca7d210b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/1e9f9600b90473726b2f9ce08f5152183d4db345",
-                "reference": "1e9f9600b90473726b2f9ce08f5152183d4db345",
+                "url": "https://api.github.com/repos/melisplatform/melis-dbdeploy/zipball/2777d2177ed98cb9b846b2b75728b20ca7d210b6",
+                "reference": "2777d2177ed98cb9b846b2b75728b20ca7d210b6",
                 "shasum": ""
             },
             "require": {
                 "phing/phing": "2.17.4",
-                "php": "^8.1|^8.3"
+                "php": "^8.3|^8.5"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3735,37 +3744,46 @@
             "license": [
                 "OSL-3.0"
             ],
+            "authors": [
+                {
+                    "name": "Melis Technology",
+                    "email": "contact@melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
+                    "role": "Developer"
+                }
+            ],
             "description": "Melis Platform Database deployment module",
             "homepage": "https://github.com/melisplatform/melis-dbdeploy",
             "keywords": [
                 "cms",
+                "laminas",
                 "melis",
-                "module",
-                "zf2"
+                "module"
             ],
             "support": {
+                "docs": "https://melisplatform.github.io/docs/",
                 "issues": "https://github.com/melisplatform/melis-dbdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-dbdeploy"
             },
-            "time": "2026-08-04T05:59:32+00:00"
+            "time": "2026-08-10T08:07:18+00:00"
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "8828ae8221daa6a20d121382f45361b7b4c9e6fb"
+                "reference": "43132f4a9d7282e8d87b7e3acc6c1f9a077105a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/8828ae8221daa6a20d121382f45361b7b4c9e6fb",
-                "reference": "8828ae8221daa6a20d121382f45361b7b4c9e6fb",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/43132f4a9d7282e8d87b7e3acc6c1f9a077105a8",
+                "reference": "43132f4a9d7282e8d87b7e3acc6c1f9a077105a8",
                 "shasum": ""
             },
             "require": {
                 "melisplatform/melis-core": "^6.0",
-                "php": "^8.1|^8.3"
+                "php": "^8.3|^8.5"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3786,7 +3804,7 @@
                 {
                     "name": "Melis Technology",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
                     "role": "Developer"
                 }
             ],
@@ -3794,17 +3812,17 @@
             "homepage": "https://github.com/melisplatform/melis-installer",
             "keywords": [
                 "cms",
+                "laminas",
                 "melis",
-                "module",
-                "zf2"
+                "module"
             ],
             "support": {
-                "docs": "https://www.melistechnology.com/melistechnology/resources/download-documentation/id/17#documentation",
+                "docs": "https://melisplatform.github.io/docs/",
                 "email": "contact@melistechnology.com",
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2026-08-10T04:09:19+00:00"
+            "time": "2026-08-10T08:20:33+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
