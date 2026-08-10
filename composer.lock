@@ -3567,16 +3567,16 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "216c909a7fb511d9d479a940d1bb55b00a4bf5d8"
+                "reference": "fbfadc02c26fae8b244fb69a984eb5835e252d86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/216c909a7fb511d9d479a940d1bb55b00a4bf5d8",
-                "reference": "216c909a7fb511d9d479a940d1bb55b00a4bf5d8",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/fbfadc02c26fae8b244fb69a984eb5835e252d86",
+                "reference": "fbfadc02c26fae8b244fb69a984eb5835e252d86",
                 "shasum": ""
             },
             "require": {
@@ -3618,20 +3618,20 @@
                 "issues": "https://github.com/melisplatform/melis-composerdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-composerdeploy"
             },
-            "time": "2026-08-10T08:21:52+00:00"
+            "time": "2026-08-10T08:45:56+00:00"
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "0768d465727654ed0bdda4917e2de279e126ca8e"
+                "reference": "d161d63ab32908cd671ab576f1d94bc250d7e8af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/0768d465727654ed0bdda4917e2de279e126ca8e",
-                "reference": "0768d465727654ed0bdda4917e2de279e126ca8e",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/d161d63ab32908cd671ab576f1d94bc250d7e8af",
+                "reference": "d161d63ab32908cd671ab576f1d94bc250d7e8af",
                 "shasum": ""
             },
             "require": {
@@ -3667,7 +3667,7 @@
                 "melisplatform/melis-dbdeploy": "^6.0",
                 "melisplatform/melis-react-api": "^6.0",
                 "melisplatform/melis-react-override": "^6.0",
-                "php": "^8.1|^8.3",
+                "php": "^8.3|^8.5",
                 "psr/container": "1.1.1",
                 "symfony/service-contracts": "2.5.0",
                 "symfony/var-dumper": "^6.4"
@@ -3692,7 +3692,7 @@
                 {
                     "name": "Melis Technology",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
                     "role": "Developer"
                 }
             ],
@@ -3700,17 +3700,17 @@
             "homepage": "https://github.com/melisplatform/melis-core",
             "keywords": [
                 "cms",
+                "laminas",
                 "melis",
-                "module",
-                "zf2"
+                "module"
             ],
             "support": {
-                "docs": "https://www.melistechnology.com/melistechnology/resources/download-documentation/id/17#documentation",
+                "docs": "https://melisplatform.github.io/docs/",
                 "email": "contact@melistechnology.com",
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2026-08-10T07:45:38+00:00"
+            "time": "2026-08-10T08:46:25+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -3826,21 +3826,21 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "84f5caf1a7cc5ca0a8503106cf8ae7a80263420f"
+                "reference": "396b5f592254cfeb6ffbb11ca4e9571d107045ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/84f5caf1a7cc5ca0a8503106cf8ae7a80263420f",
-                "reference": "84f5caf1a7cc5ca0a8503106cf8ae7a80263420f",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/396b5f592254cfeb6ffbb11ca4e9571d107045ca",
+                "reference": "396b5f592254cfeb6ffbb11ca4e9571d107045ca",
                 "shasum": ""
             },
             "require": {
                 "melisplatform/melis-core": "^6.0",
-                "php": "^8.1|^8.3"
+                "php": "^8.3|^8.5"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3862,7 +3862,7 @@
                 {
                     "name": "Melis Technology",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
                     "role": "Developer"
                 }
             ],
@@ -3870,17 +3870,17 @@
             "homepage": "https://github.com/melisplatform/melis-marketplace",
             "keywords": [
                 "cms",
+                "laminas",
                 "melis",
-                "module",
-                "zf2"
+                "module"
             ],
             "support": {
-                "docs": "https://www.melistechnology.com/melistechnology/resources/download-documentation/id/17#documentation",
+                "docs": "https://melisplatform.github.io/docs/",
                 "email": "contact@melistechnology.com",
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2026-08-10T04:26:06+00:00"
+            "time": "2026-08-10T08:35:13+00:00"
         },
         {
             "name": "melisplatform/melis-react-api",
