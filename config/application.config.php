@@ -14,11 +14,11 @@ return [
         // React back-office (melis-docker-react). Declared here, NOT in
         // config/melis.module.load.php (the Modules tool rewrites that file and
         // would drop them), and AFTER getModules() so MelisReactOverride wins the
-        // config merge. Gated on MelisCore being active: before the web installer
-        // finishes, melis.module.load.php only lists the installer modules and
-        // MelisCore's services don't exist yet — loading the React modules that
-        // early would fatal the install wizard. WITH_REACT=0 opts out without editing
-        // this file (melis-docker-react exposes it as an env var on every stack).
+        // config merge. Gated on the module list naming MelisCore (installed) or
+        // MelisInstaller (pre-install): the React setup wizard at /melis-react/setup
+        // is served by MelisReactOverride's SPA route, so the modules must load
+        // BEFORE the install too (melis-installer >= 6.0.2 whitelists that route).
+        // WITH_REACT=0 opts out without editing this file.
         (is_array($melisLoad = @include __DIR__ . '/melis.module.load.php')
             && (in_array('MelisCore', $melisLoad, true) || in_array('MelisInstaller', $melisLoad, true))
             && getenv('WITH_REACT') !== '0'
