@@ -3884,21 +3884,21 @@
         },
         {
             "name": "melisplatform/melis-react-api",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-react-api.git",
-                "reference": "e53cc2d1a9bf36ee741521e9d79eb89d7531c45e"
+                "reference": "0d580e4c396e9bad6e456c778455bd514c5114ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-react-api/zipball/e53cc2d1a9bf36ee741521e9d79eb89d7531c45e",
-                "reference": "e53cc2d1a9bf36ee741521e9d79eb89d7531c45e",
+                "url": "https://api.github.com/repos/melisplatform/melis-react-api/zipball/0d580e4c396e9bad6e456c778455bd514c5114ad",
+                "reference": "0d580e4c396e9bad6e456c778455bd514c5114ad",
                 "shasum": ""
             },
             "require": {
                 "melisplatform/melis-core": "^6.0",
-                "php": "^8.1|^8.3"
+                "php": "^8.3|^8.5"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3920,7 +3920,7 @@
                 {
                     "name": "Melis Technology",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
                     "role": "Developer"
                 }
             ],
@@ -3934,29 +3934,30 @@
                 "react"
             ],
             "support": {
+                "docs": "https://melisplatform.github.io/docs/",
                 "email": "contact@melistechnology.com",
                 "issues": "https://github.com/melisplatform/melis-react-api/issues",
                 "source": "https://github.com/melisplatform/melis-react-api"
             },
-            "time": "2026-08-10T05:54:27+00:00"
+            "time": "2026-08-10T10:27:48+00:00"
         },
         {
             "name": "melisplatform/melis-react-override",
-            "version": "v6.0.1",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-react-override.git",
-                "reference": "8aebb62585a72d85b65d9403dca40a0fcd577296"
+                "reference": "6120bf4319f875e2e315f7c7df3db827310f9652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-react-override/zipball/8aebb62585a72d85b65d9403dca40a0fcd577296",
-                "reference": "8aebb62585a72d85b65d9403dca40a0fcd577296",
+                "url": "https://api.github.com/repos/melisplatform/melis-react-override/zipball/6120bf4319f875e2e315f7c7df3db827310f9652",
+                "reference": "6120bf4319f875e2e315f7c7df3db827310f9652",
                 "shasum": ""
             },
             "require": {
                 "melisplatform/melis-core": "^6.0",
-                "php": "^8.1|^8.3"
+                "php": "^8.3|^8.5"
             },
             "type": "melisplatform-module",
             "extra": {
@@ -3978,7 +3979,7 @@
                 {
                     "name": "Melis Technology",
                     "email": "contact@melistechnology.com",
-                    "homepage": "https://www.melistechnology.com",
+                    "homepage": "https://www.melisplatform.com/",
                     "role": "Developer"
                 }
             ],
@@ -3992,11 +3993,12 @@
                 "react"
             ],
             "support": {
+                "docs": "https://melisplatform.github.io/docs/",
                 "email": "contact@melistechnology.com",
                 "issues": "https://github.com/melisplatform/melis-react-override/issues",
                 "source": "https://github.com/melisplatform/melis-react-override"
             },
-            "time": "2026-08-10T05:54:31+00:00"
+            "time": "2026-08-10T10:29:58+00:00"
         },
         {
             "name": "nikic/php-parser",
