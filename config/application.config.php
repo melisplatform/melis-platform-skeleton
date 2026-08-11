@@ -17,9 +17,11 @@ return [
         // config merge. Gated on MelisCore being active: before the web installer
         // finishes, melis.module.load.php only lists the installer modules and
         // MelisCore's services don't exist yet — loading the React modules that
-        // early would fatal the install wizard.
+        // early would fatal the install wizard. WITH_REACT=0 opts out without editing
+        // this file (melis-docker-react exposes it as an env var on every stack).
         (is_array($melisLoad = @include __DIR__ . '/melis.module.load.php')
             && (in_array('MelisCore', $melisLoad, true) || in_array('MelisInstaller', $melisLoad, true))
+            && getenv('WITH_REACT') !== '0'
             ? ['MelisReactApi', 'MelisReactOverride']
             : [])
     ),
