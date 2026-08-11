@@ -10,7 +10,18 @@ return [
     // Retrieve list of modules used in this application.
     'modules' => array_merge(
         MelisCore\MelisModuleManager::getModuleComponents(),
-        MelisCore\MelisModuleManager::getModules()
+        MelisCore\MelisModuleManager::getModules(),
+        // React back-office (melis-docker-react). Declared here, NOT in
+        // config/melis.module.load.php (the Modules tool rewrites that file and
+        // would drop them), and AFTER getModules() so MelisReactOverride wins the
+        // config merge. Gated on MelisCore being active: before the web installer
+        // finishes, melis.module.load.php only lists the installer modules and
+        // MelisCore's services don't exist yet — loading the React modules that
+        // early would fatal the install wizard.
+        (is_array($melisLoad = @include __DIR__ . '/melis.module.load.php')
+            && (in_array('MelisCore', $melisLoad, true) || in_array('MelisInstaller', $melisLoad, true))
+            ? ['MelisReactApi', 'MelisReactOverride']
+            : [])
     ),
 
     // These are various options for the listeners attached to the ModuleManager
