@@ -3567,16 +3567,16 @@
         },
         {
             "name": "melisplatform/melis-composerdeploy",
-            "version": "v6.0.3",
+            "version": "v6.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-composerdeploy.git",
-                "reference": "fbfadc02c26fae8b244fb69a984eb5835e252d86"
+                "reference": "cf4b209625efe9c1cf64ac05877ed09165e87446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/fbfadc02c26fae8b244fb69a984eb5835e252d86",
-                "reference": "fbfadc02c26fae8b244fb69a984eb5835e252d86",
+                "url": "https://api.github.com/repos/melisplatform/melis-composerdeploy/zipball/cf4b209625efe9c1cf64ac05877ed09165e87446",
+                "reference": "cf4b209625efe9c1cf64ac05877ed09165e87446",
                 "shasum": ""
             },
             "require": {
@@ -3618,7 +3618,7 @@
                 "issues": "https://github.com/melisplatform/melis-composerdeploy/issues",
                 "source": "https://github.com/melisplatform/melis-composerdeploy"
             },
-            "time": "2026-08-10T08:45:56+00:00"
+            "time": "2026-08-12T10:40:42+00:00"
         },
         {
             "name": "melisplatform/melis-core",
