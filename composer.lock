@@ -3622,16 +3622,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v6.0.3",
+            "version": "v6.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "d161d63ab32908cd671ab576f1d94bc250d7e8af"
+                "reference": "d462eae5250390458b35ac3a651aaf84ed9547ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/d161d63ab32908cd671ab576f1d94bc250d7e8af",
-                "reference": "d161d63ab32908cd671ab576f1d94bc250d7e8af",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/d462eae5250390458b35ac3a651aaf84ed9547ab",
+                "reference": "d462eae5250390458b35ac3a651aaf84ed9547ab",
                 "shasum": ""
             },
             "require": {
@@ -3710,7 +3710,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2026-08-10T08:46:25+00:00"
+            "time": "2026-08-12T07:31:59+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -3769,16 +3769,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "43132f4a9d7282e8d87b7e3acc6c1f9a077105a8"
+                "reference": "358b29e8b882a9a1eb1a30b1275e3344491c3edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/43132f4a9d7282e8d87b7e3acc6c1f9a077105a8",
-                "reference": "43132f4a9d7282e8d87b7e3acc6c1f9a077105a8",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/358b29e8b882a9a1eb1a30b1275e3344491c3edb",
+                "reference": "358b29e8b882a9a1eb1a30b1275e3344491c3edb",
                 "shasum": ""
             },
             "require": {
@@ -3822,7 +3822,7 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2026-08-10T08:20:33+00:00"
+            "time": "2026-08-12T07:34:58+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
@@ -3943,16 +3943,16 @@
         },
         {
             "name": "melisplatform/melis-react-override",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-react-override.git",
-                "reference": "6120bf4319f875e2e315f7c7df3db827310f9652"
+                "reference": "8294620f6911ee8e2469422f598f64cbdab5967e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-react-override/zipball/6120bf4319f875e2e315f7c7df3db827310f9652",
-                "reference": "6120bf4319f875e2e315f7c7df3db827310f9652",
+                "url": "https://api.github.com/repos/melisplatform/melis-react-override/zipball/8294620f6911ee8e2469422f598f64cbdab5967e",
+                "reference": "8294620f6911ee8e2469422f598f64cbdab5967e",
                 "shasum": ""
             },
             "require": {
@@ -3998,7 +3998,7 @@
                 "issues": "https://github.com/melisplatform/melis-react-override/issues",
                 "source": "https://github.com/melisplatform/melis-react-override"
             },
-            "time": "2026-08-10T10:29:58+00:00"
+            "time": "2026-08-12T07:37:12+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -6211,15 +6211,15 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.1|^8.3|^8.4|^8.5"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.3.0"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.2.0"
 }
