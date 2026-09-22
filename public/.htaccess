@@ -1,8 +1,24 @@
 RewriteEngine On
 
+ServerSignature Off
+
 <IfModule mod_headers.c>
     SetEnv mod_headers On
     Header set Connection keep-alive
+
+    # SECURITY (CSRF): do NOT rewrite Set-Cookie here (no "Header edit Set-Cookie ... SameSite=None").
+    # The browser keeps the LAST occurrence of a cookie attribute, so such a rule silently overrides
+    # the SameSite=Strict that PHP sets on PHPSESSID (public/index.php and MelisCore\Module::initSession)
+    # and the session cookie is then sent on every cross-site request, cancelling the CSRF protection.
+    # Each cookie declares its own attributes in PHP, where the right value is known
+    # (PHPSESSID: Strict / HttpOnly - melis_csrf: Lax, readable by JS on purpose).
+
+    # Security headers
+    Header set X-Content-Type-Options "nosniff"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    Header set Referrer-Policy "same-origin"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header unset X-Powered-By
 
     FileETag None
 	Header unset ETag
