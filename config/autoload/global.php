@@ -12,6 +12,40 @@
  * file.
  */
 
+// Error display is driven by the MELIS_PLATFORM block's 'errors' in
+// module/MelisModuleConfig/config/app.interface.php (e.g. 'local'). Platforms without one fall back to
+// display off with warnings/deprecations/notices silenced; display_errors=0 hides fatals too, so rely
+// on log_errors to see them. Applied at boot by each module's Module::initShowErrorsByconfig().
+// BOTH plugins are set: MelisFront bootstraps AFTER MelisCore (back office included) and reads only
+// plugins.melisfront.datas.default, with no platform lookup, so it would otherwise override the
+// platform value with its own default (display_errors=1).
+// The file is project-edited and may be absent (fresh install, trimmed module): a bare include would
+// warn before any error setting applies and could print into the response, so fall back to defaults.
+$melisInterfaceFile = __DIR__ . '/../../module/MelisModuleConfig/config/app.interface.php';
+$melisInterface = is_file($melisInterfaceFile) ? include $melisInterfaceFile : [];
+$melisErrors = array_merge(
+    [
+        'error_reporting' => E_ALL & ~E_WARNING & ~E_DEPRECATED & ~E_NOTICE & ~E_USER_DEPRECATED,
+        'display_errors' => 0,
+    ],
+    $melisInterface['plugins']['meliscore']['datas'][getenv('MELIS_PLATFORM')]['errors'] ?? []
+);
+
 return [
-    // ...
+    'plugins' => [
+        'meliscore' => [
+            'datas' => [
+                'default' => [
+                    'errors' => $melisErrors,
+                ],
+            ],
+        ],
+        'melisfront' => [
+            'datas' => [
+                'default' => [
+                    'errors' => $melisErrors,
+                ],
+            ],
+        ],
+    ],
 ];
