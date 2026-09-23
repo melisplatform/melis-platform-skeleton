@@ -3511,16 +3511,16 @@
         },
         {
             "name": "melisplatform/melis-asset-manager",
-            "version": "v6.0.3",
+            "version": "v6.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-asset-manager.git",
-                "reference": "604756986104c6d1f8dbd09b8782390139fda92d"
+                "reference": "ac3957a2aa34d08150396ec3109ee5a9835ee001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/604756986104c6d1f8dbd09b8782390139fda92d",
-                "reference": "604756986104c6d1f8dbd09b8782390139fda92d",
+                "url": "https://api.github.com/repos/melisplatform/melis-asset-manager/zipball/ac3957a2aa34d08150396ec3109ee5a9835ee001",
+                "reference": "ac3957a2aa34d08150396ec3109ee5a9835ee001",
                 "shasum": ""
             },
             "require": {
@@ -3563,7 +3563,7 @@
                 "issues": "https://github.com/melisplatform/melis-asset-manager/issues",
                 "source": "https://github.com/melisplatform/melis-asset-manager"
             },
-            "time": "2026-08-20T04:42:00+00:00"
+            "time": "2026-09-22T11:59:48+00:00"
         },
         {
             "name": "melisplatform/melis-composerdeploy",
@@ -3826,16 +3826,16 @@
         },
         {
             "name": "melisplatform/melis-marketplace",
-            "version": "v6.0.5",
+            "version": "v6.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-marketplace.git",
-                "reference": "b4c53290e5ad964caab292bb87da078bcb9d7502"
+                "reference": "a9778919f25aebaf7420dba4ea9b8479fbdac391"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/b4c53290e5ad964caab292bb87da078bcb9d7502",
-                "reference": "b4c53290e5ad964caab292bb87da078bcb9d7502",
+                "url": "https://api.github.com/repos/melisplatform/melis-marketplace/zipball/a9778919f25aebaf7420dba4ea9b8479fbdac391",
+                "reference": "a9778919f25aebaf7420dba4ea9b8479fbdac391",
                 "shasum": ""
             },
             "require": {
@@ -3880,7 +3880,7 @@
                 "issues": "https://github.com/melisplatform/melis-marketplace/issues",
                 "source": "https://github.com/melisplatform/melis-marketplace"
             },
-            "time": "2026-08-20T04:52:16+00:00"
+            "time": "2026-09-23T08:39:35+00:00"
         },
         {
             "name": "melisplatform/melis-react-api",
