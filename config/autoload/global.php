@@ -19,7 +19,10 @@
 // BOTH plugins are set: MelisFront bootstraps AFTER MelisCore (back office included) and reads only
 // plugins.melisfront.datas.default, with no platform lookup, so it would otherwise override the
 // platform value with its own default (display_errors=1).
-$melisInterface = include __DIR__ . '/../../module/MelisModuleConfig/config/app.interface.php';
+// The file is project-edited and may be absent (fresh install, trimmed module): a bare include would
+// warn before any error setting applies and could print into the response, so fall back to defaults.
+$melisInterfaceFile = __DIR__ . '/../../module/MelisModuleConfig/config/app.interface.php';
+$melisInterface = is_file($melisInterfaceFile) ? include $melisInterfaceFile : [];
 $melisErrors = array_merge(
     [
         'error_reporting' => E_ALL & ~E_WARNING & ~E_DEPRECATED & ~E_NOTICE & ~E_USER_DEPRECATED,
