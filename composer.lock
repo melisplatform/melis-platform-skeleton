@@ -3614,16 +3614,16 @@
         },
         {
             "name": "melisplatform/melis-core",
-            "version": "v6.0.12",
+            "version": "v6.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-core.git",
-                "reference": "dd0b48674ec90d8f1540eb309af93fbe29cdaf44"
+                "reference": "f93b4ec44c1f395d440e9521fc57081dcf9b277b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/dd0b48674ec90d8f1540eb309af93fbe29cdaf44",
-                "reference": "dd0b48674ec90d8f1540eb309af93fbe29cdaf44",
+                "url": "https://api.github.com/repos/melisplatform/melis-core/zipball/f93b4ec44c1f395d440e9521fc57081dcf9b277b",
+                "reference": "f93b4ec44c1f395d440e9521fc57081dcf9b277b",
                 "shasum": ""
             },
             "require": {
@@ -3702,7 +3702,7 @@
                 "issues": "https://github.com/melisplatform/melis-core/issues",
                 "source": "https://github.com/melisplatform/melis-core"
             },
-            "time": "2026-09-25T10:07:07+00:00"
+            "time": "2026-10-06T04:57:24+00:00"
         },
         {
             "name": "melisplatform/melis-dbdeploy",
@@ -3761,16 +3761,16 @@
         },
         {
             "name": "melisplatform/melis-installer",
-            "version": "v6.0.3",
+            "version": "v6.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/melisplatform/melis-installer.git",
-                "reference": "358b29e8b882a9a1eb1a30b1275e3344491c3edb"
+                "reference": "9b6dcb700802b0585f398b6ee8457fdce8dbf245"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/358b29e8b882a9a1eb1a30b1275e3344491c3edb",
-                "reference": "358b29e8b882a9a1eb1a30b1275e3344491c3edb",
+                "url": "https://api.github.com/repos/melisplatform/melis-installer/zipball/9b6dcb700802b0585f398b6ee8457fdce8dbf245",
+                "reference": "9b6dcb700802b0585f398b6ee8457fdce8dbf245",
                 "shasum": ""
             },
             "require": {
@@ -3814,7 +3814,7 @@
                 "issues": "https://github.com/melisplatform/melis-installer/issues",
                 "source": "https://github.com/melisplatform/melis-installer"
             },
-            "time": "2026-08-12T07:34:58+00:00"
+            "time": "2026-10-06T04:57:28+00:00"
         },
         {
             "name": "melisplatform/melis-marketplace",
